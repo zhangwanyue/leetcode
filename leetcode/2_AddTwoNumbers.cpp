@@ -5,6 +5,13 @@
 
 using namespace std;
 
+
+/**
+ * 这道题要特别注意，给出的链表可能是很长的，用int甚至long long存储都是不合适的
+ * 要考虑的是，大数的加法，如何用链表来实现
+ * 还要特别注意看清题目，到底是要链表正序还是倒序
+ */
+
 /**
  Definition for singly-linked list.
 */

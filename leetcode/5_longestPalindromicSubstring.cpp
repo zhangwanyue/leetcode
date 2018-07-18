@@ -5,6 +5,9 @@
 
 using namespace std;
 
+/**
+ * 这是一道动态规划的题目
+ */
 class Solution {
 public:
     string longestPalindrome(string s) {

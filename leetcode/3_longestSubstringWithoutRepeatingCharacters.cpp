@@ -8,6 +8,9 @@
 
 using namespace std;
 
+/**
+ * 用队列做的
+ */
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
