@@ -31,9 +31,9 @@ public:
     }
 };
 
-int main(){
-    string s = "aabbcbb";
-    cout<< (new Solution)->longestPalindrome(s);
-}
+//int main(){
+//    string s = "aabbcbb";
+//    cout<< (new Solution)->longestPalindrome(s);
+//}
 
 
