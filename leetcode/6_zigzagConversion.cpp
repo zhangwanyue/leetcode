@@ -25,7 +25,7 @@ public:
             }
             string result;
             for(int j=0; j<numRows; j++){
-                while(pos[j].size() > 0){
+                while(!pos[j].empty()){
                     result+=pos[j][0];
                     pos[j].pop_front();
                     int nextJ = circular-j;
@@ -41,12 +41,12 @@ public:
 };
 
 
-int main(){
-    string s = "012345abcdef";
-    int numRows = 2;
-    cout<< (new Solution)->convert(s, numRows);
-    //双端队列初始化
-//    deque< deque<char> > pos(10);
-//    pos[1].push_back('a');
-//    cout<<pos[1][0]<<endl;
-}
+//int main(){
+//    string s = "012345abcdef";
+//    int numRows = 2;
+//    cout<< (new Solution)->convert(s, numRows);
+//    //双端队列初始化
+////    deque< deque<char> > pos(10);
+////    pos[1].push_back('a');
+////    cout<<pos[1][0]<<endl;
+//}
