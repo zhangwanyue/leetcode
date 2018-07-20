@@ -10,3 +10,4 @@
 test/
 *_false.cpp
 /cmake-build-debug
+*_bad.cpp
