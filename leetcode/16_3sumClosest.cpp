@@ -11,6 +11,12 @@
 
 using namespace std;
 
+/**
+ * 和3sum的解法类似，也是要设置头尾指针
+ * 这个不用寻找a+b+c = 0,而是找abs(target-a-b-c)最小的，记录这个最小值，每次计算中进行比较并更新最小值
+ * 可以不用考虑跳过重复元素
+ * 如果最小值等于零了，就可以直接返回不用再寻找了，否则要遍历完全部的值
+ */
 static auto __ = [] () {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);

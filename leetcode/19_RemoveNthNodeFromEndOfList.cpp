@@ -7,6 +7,13 @@
 
 using namespace std;
 
+/**
+ * 一个简单的链表删除节点题目
+ * 删除倒数第n个节点
+ * 可以先计算一下有多少个节点
+ * 也可以让一个指针先走n步
+ */
+
 //  Definition for singly-linked list.
 struct ListNode {
   int val;
