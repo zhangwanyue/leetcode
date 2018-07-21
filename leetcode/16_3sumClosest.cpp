@@ -46,15 +46,15 @@ public:
     }
 };
 
-int main(){
-//    vector<int> nums = {-1, 0, 1, 2, -1, -4};
-//    vector<int> nums = {};
-//    vector<int> nums = {-2, 0, 1, 1, 2};
-//    vector<int> nums = {0, 0, 0};
-//    vector<int> nums = {-1, 2, 1, -4};
-//    vector<int> nums = {-1, 2, 1, -4};
-//    vector<int> nums = {1, 1, 1, 1};
-    vector<int> nums = {0, 2, 1, -3};
-    int target = 1;
-    cout<< (new Solution)->threeSumClosest(nums, target)<<endl;
-}
+//int main(){
+////    vector<int> nums = {-1, 0, 1, 2, -1, -4};
+////    vector<int> nums = {};
+////    vector<int> nums = {-2, 0, 1, 1, 2};
+////    vector<int> nums = {0, 0, 0};
+////    vector<int> nums = {-1, 2, 1, -4};
+////    vector<int> nums = {-1, 2, 1, -4};
+////    vector<int> nums = {1, 1, 1, 1};
+//    vector<int> nums = {0, 2, 1, -3};
+//    int target = 1;
+//    cout<< (new Solution)->threeSumClosest(nums, target)<<endl;
+//}
