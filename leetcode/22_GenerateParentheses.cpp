@@ -46,10 +46,10 @@ private:
     }
 };
 
-int main(){
-    int n = 3;
-    vector<string> resVec = (new Solution)->generateParenthesis(n);
-    for(string res : resVec){
-        cout<<res<<endl;
-    }
-}
+//int main(){
+//    int n = 3;
+//    vector<string> resVec = (new Solution)->generateParenthesis(n);
+//    for(string res : resVec){
+//        cout<<res<<endl;
+//    }
+//}
