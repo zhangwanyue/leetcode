@@ -5,7 +5,6 @@
 #include <vector>
 #include <climits>
 #include <cmath>
-
 using namespace std;
 
 /**
@@ -18,6 +17,8 @@ using namespace std;
  * 注意：INT_MIN是：-2147483648; INT_MAX是：2147483647
  * 所以,dividend = -2147483648, divisor = -1也是有效输入，但是结果值会超过INT_MAX造成溢出，要将该情况特殊处理
  * 另： -2147483648/-1 = 2147483647
+ *
+ * abs(-2^32) = -2^32，因为-2^32的最高位就是1，本身就可以被看作正数。所以如果想对-2^32求abs，要用long int或者long long存储。
  */
 
 class Solution {
@@ -31,7 +32,7 @@ public:
             //这里为了防止溢出
             return INT_MAX;
         }
-        long long long_dividend = abs((long long)dividend);//abs里面要强制类型转换，不然-2147483648会被abs当作正数
+        long long long_dividend = abs((long long)dividend);//abs里面要强制类型转换，不然-2147483648的abs还是-2147483648
         long long long_divisor = abs((long long)divisor);
         while (long_dividend >= long_divisor) {  // Main loop
             int shift = 0;
@@ -50,6 +51,8 @@ public:
 
 
 
-int main(){
-    cout<<(new Solution)->divide(-2147483648,1)<<endl;
-}
+//int main(){
+//    int a = INT_MAX;
+//    cout<<a+1<<endl;
+//    cout<<(new Solution)->divide(-2147483648,1)<<endl;
+//}
