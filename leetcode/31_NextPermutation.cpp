@@ -28,7 +28,7 @@ public:
         int i = 0;
         bool flag = false;
         for(i=nums.size()-1; i>0; i--){
-            if(nums[i]>nums[i-1]){
+            if(nums[i]>nums[i-1]){//寻找低位数字大于高位的
                 index = i-1;
                 sort(nums.begin()+i, nums.end());//升序排列
                 swap(nums, index, i, nums.size()-1);
@@ -43,6 +43,8 @@ public:
 
 private:
     void swap(vector<int>& nums, int index, int i, int j){
+        //nums[i]到nums[j]已经从小到大排好了顺序
+        //寻找nums[i]到nums[j]中第一个大于nums[index]的数字，并和nums[index]交换
         int temp;
         for(int k = i; k<=j; k++){
             if(nums[k]>nums[index]){
