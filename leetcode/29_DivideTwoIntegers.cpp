@@ -14,6 +14,10 @@ using namespace std;
  * 假设: divisor*n = dividend
  * 一定有: n = 2^a0 + 2^a1 + ... + 2^am;
  * 现在要求得: a0, a1, ..., am的值
+ *
+ * 注意：INT_MIN是：-2147483648; INT_MAX是：2147483647
+ * 所以,dividend = -2147483648, divisor = -1也是有效输入，但是结果值会超过INT_MAX造成溢出，要将该情况特殊处理
+ * 另： -2147483648/-1 = 2147483647
  */
 
 class Solution {
