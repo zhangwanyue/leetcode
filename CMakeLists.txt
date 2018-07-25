@@ -3,4 +3,4 @@ project(LeetCode)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(LeetCode leetcode/24_SwapNodesInPairs.cpp)
+add_executable(LeetCode leetcode/24_SwapNodesInPairs.cpp leetcode/29_DivideTwoIntegers.cpp)
