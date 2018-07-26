@@ -27,10 +27,11 @@ public:
 
         while (true) {//最多循环三次，一定会找到target为偶数
             if (target % 2 == 0)
-                return step;
+                break;
             step++;
             target -= step;
         }
+        return step;
     }
 };
 
