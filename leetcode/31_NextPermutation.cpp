@@ -57,10 +57,10 @@ private:
     }
 };
 
-int main(){
-    vector<int> nums = {1, 2, 3};
-    (new Solution)->nextPermutation(nums);
-    for(int num : nums){
-        cout<<num<<" ";
-    }
-}
+//int main(){
+//    vector<int> nums = {1, 2, 3};
+//    (new Solution)->nextPermutation(nums);
+//    for(int num : nums){
+//        cout<<num<<" ";
+//    }
+//}
