@@ -41,7 +41,7 @@ public:
 private:
     int findNum(vector<int>& nums, int target, int start, int end){//二分查找
         int middle;
-        while(start<=end){
+        while(start<=end){//注意这个循环条件，背一下呀好不啦
             middle = (start+end)/2;
             if(nums[middle]<target){
                 start = middle+1;

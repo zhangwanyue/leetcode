@@ -3,4 +3,4 @@ project(LeetCode)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(LeetCode leetcode/24_SwapNodesInPairs.cpp leetcode/29_DivideTwoIntegers.cpp leetcode/31_NextPermutation.cpp leetcode/740_DeleteAndEarn.cpp leetcode/754_ReachANumber.cpp leetcode/33_SearchInRotatedSortedArray.cpp leetcode/33_SearchInRotatedSortedArray_2.cpp.cpp)
+add_executable(LeetCode leetcode/24_SwapNodesInPairs.cpp leetcode/29_DivideTwoIntegers.cpp leetcode/31_NextPermutation.cpp leetcode/740_DeleteAndEarn.cpp leetcode/754_ReachANumber.cpp leetcode/33_SearchInRotatedSortedArray.cpp leetcode/33_SearchInRotatedSortedArray_2.cpp.cpp leetcode/39_CombinationSum.cpp)

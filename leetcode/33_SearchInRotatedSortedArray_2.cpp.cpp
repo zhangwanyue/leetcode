@@ -15,11 +15,10 @@ public:
     int search(vector<int>& nums, int target) {
         if(nums.size()==0)
             return -1;
-        int l = 0;
-        int r = nums.size()-1;
+        int l = 0, r = nums.size()-1, m;
         while(l<=r)
         {
-            int m = (l+r)/2;
+            m = (l+r)/2;
             if(target == nums[m])
                 return m;
             if(nums[m]<nums[r])//说明privot不在右边（也可能不存在privot），所以右边是有序的
@@ -39,10 +38,10 @@ public:
     }
 };
 
-int main(){
-//    vector<int> nums = {4,5,6,7,0,1,2};
-//    vector<int> nums = {1, 3, 5};
-    vector<int> nums = {1,3};
-    int target = 3;
-    cout<<(new Solution)->search(nums, target);
-}
+//int main(){
+////    vector<int> nums = {4,5,6,7,0,1,2};
+////    vector<int> nums = {1, 3, 5};
+//    vector<int> nums = {1,3};
+//    int target = 3;
+//    cout<<(new Solution)->search(nums, target);
+//}
