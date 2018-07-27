@@ -16,6 +16,7 @@ using namespace std;
  * 要直接写成：
  * find(res+'(', leftPos+1, rightPos, n);
  */
+
 class Solution {
 public:
     vector<string> resVec;
@@ -46,10 +47,10 @@ private:
     }
 };
 
-int main(){
-    int n = 3;
-    vector<string> resVec = (new Solution)->generateParenthesis(n);
-    for(string res : resVec){
-        cout<<res<<endl;
-    }
-}
+//int main(){
+//    int n = 3;
+//    vector<string> resVec = (new Solution)->generateParenthesis(n);
+//    for(string res : resVec){
+//        cout<<res<<endl;
+//    }
+//}
