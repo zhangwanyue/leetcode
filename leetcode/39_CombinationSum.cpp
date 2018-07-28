@@ -44,14 +44,14 @@ public:
     }
 };
 
-int main(){
-    vector<int> candidates = {2,3,5};
-    int target = 8;
-    vector<vector<int>> resVec = (new Solution)->combinationSum(candidates, target);
-    for(vector<int> res:resVec){
-        for(int num: res){
-            cout<<num<<" ";
-        }
-        cout<<endl;
-    }
-}
+//int main(){
+//    vector<int> candidates = {2,3,5};
+//    int target = 8;
+//    vector<vector<int>> resVec = (new Solution)->combinationSum(candidates, target);
+//    for(vector<int> res:resVec){
+//        for(int num: res){
+//            cout<<num<<" ";
+//        }
+//        cout<<endl;
+//    }
+//}
