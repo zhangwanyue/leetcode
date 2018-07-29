@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Leetcode.dir/leetcode/33_SearchInRotatedSortedArray_2.cpp.o"
   "CMakeFiles/Leetcode.dir/leetcode/39_CombinationSum.cpp.o"
   "CMakeFiles/Leetcode.dir/leetcode/46_Permutations.cpp.o"
+  "CMakeFiles/Leetcode.dir/leetcode/47_PermutationsII.cpp.o"
   "Leetcode.pdb"
   "Leetcode"
 )

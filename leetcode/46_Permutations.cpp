@@ -6,6 +6,9 @@
 #include <algorithm>
 using namespace std;
 
+/**
+ * 这是一道回溯法的题目
+ */
 
 class Solution {
 public:
@@ -19,11 +22,11 @@ public:
 
 private:
     void backtracking(vector<int>& nums, vector<vector<int>>& resVec, vector<int> remain, vector<int> current){
-        if(allTried(remain)){
+        if((current.size()==nums.size())){
+//        if(allTried(remain)){//两种判断方法都可以
             resVec.push_back(current);
             return;
-        }
-        else if(!allTried(remain)){
+        } else{
             for(int i=0; i<remain.size(); i++){
                 if(remain[i]!=-1) {
                     current.push_back(nums[i]);
@@ -46,13 +49,13 @@ private:
     }
 };
 
-int main(){
-    vector<int> nums = {1, 2, 3};
-    vector<vector<int>> resVec = (new Solution)->permute(nums);
-    for(vector<int> res : resVec){
-        for(int num : res){
-            cout<<num<<" ";
-        }
-        cout<<endl;
-    }
-}
+//int main(){
+//    vector<int> nums = {1, 2, 3};
+//    vector<vector<int>> resVec = (new Solution)->permute(nums);
+//    for(vector<int> res : resVec){
+//        for(int num : res){
+//            cout<<num<<" ";
+//        }
+//        cout<<endl;
+//    }
+//}

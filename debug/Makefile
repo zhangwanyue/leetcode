@@ -312,6 +312,33 @@ leetcode/46_Permutations.cpp.s:
 	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/46_Permutations.cpp.s
 .PHONY : leetcode/46_Permutations.cpp.s
 
+leetcode/47_PermutationsII.o: leetcode/47_PermutationsII.cpp.o
+
+.PHONY : leetcode/47_PermutationsII.o
+
+# target to build an object file
+leetcode/47_PermutationsII.cpp.o:
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/47_PermutationsII.cpp.o
+.PHONY : leetcode/47_PermutationsII.cpp.o
+
+leetcode/47_PermutationsII.i: leetcode/47_PermutationsII.cpp.i
+
+.PHONY : leetcode/47_PermutationsII.i
+
+# target to preprocess a source file
+leetcode/47_PermutationsII.cpp.i:
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/47_PermutationsII.cpp.i
+.PHONY : leetcode/47_PermutationsII.cpp.i
+
+leetcode/47_PermutationsII.s: leetcode/47_PermutationsII.cpp.s
+
+.PHONY : leetcode/47_PermutationsII.s
+
+# target to generate assembly for a file
+leetcode/47_PermutationsII.cpp.s:
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/47_PermutationsII.cpp.s
+.PHONY : leetcode/47_PermutationsII.cpp.s
+
 leetcode/740_DeleteAndEarn.o: leetcode/740_DeleteAndEarn.cpp.o
 
 .PHONY : leetcode/740_DeleteAndEarn.o
@@ -396,6 +423,9 @@ help:
 	@echo "... leetcode/46_Permutations.o"
 	@echo "... leetcode/46_Permutations.i"
 	@echo "... leetcode/46_Permutations.s"
+	@echo "... leetcode/47_PermutationsII.o"
+	@echo "... leetcode/47_PermutationsII.i"
+	@echo "... leetcode/47_PermutationsII.s"
 	@echo "... leetcode/740_DeleteAndEarn.o"
 	@echo "... leetcode/740_DeleteAndEarn.i"
 	@echo "... leetcode/740_DeleteAndEarn.s"

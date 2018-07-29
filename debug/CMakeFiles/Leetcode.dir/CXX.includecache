@@ -58,6 +58,16 @@ vector
 algorithm
 -
 
+/home/vera/CLionProjects/LeetCode/leetcode/47_PermutationsII.cpp
+iostream
+-
+vector
+-
+map
+-
+algorithm
+-
+
 /home/vera/CLionProjects/LeetCode/leetcode/740_DeleteAndEarn.cpp
 iostream
 -

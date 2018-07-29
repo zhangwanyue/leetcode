@@ -7,6 +7,10 @@
 
 using namespace std;
 
+/**
+ * 一道回溯法的题目
+ */
+
 class Solution {
 public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
