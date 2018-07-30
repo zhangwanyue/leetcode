@@ -258,6 +258,33 @@ leetcode/33_SearchInRotatedSortedArray_2.cpp.s:
 	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/33_SearchInRotatedSortedArray_2.cpp.s
 .PHONY : leetcode/33_SearchInRotatedSortedArray_2.cpp.s
 
+leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.o: leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.o
+
+.PHONY : leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.o
+
+# target to build an object file
+leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.o:
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.o
+.PHONY : leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.o
+
+leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.i: leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.i
+
+.PHONY : leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.i
+
+# target to preprocess a source file
+leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.i:
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.i
+.PHONY : leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.i
+
+leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.s: leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.s
+
+.PHONY : leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.s
+
+# target to generate assembly for a file
+leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.s:
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.s
+.PHONY : leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.s
+
 leetcode/39_CombinationSum.o: leetcode/39_CombinationSum.cpp.o
 
 .PHONY : leetcode/39_CombinationSum.o
@@ -339,6 +366,33 @@ leetcode/47_PermutationsII.cpp.s:
 	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/47_PermutationsII.cpp.s
 .PHONY : leetcode/47_PermutationsII.cpp.s
 
+leetcode/73__SetMatrixZeroes_false.o: leetcode/73__SetMatrixZeroes_false.cpp.o
+
+.PHONY : leetcode/73__SetMatrixZeroes_false.o
+
+# target to build an object file
+leetcode/73__SetMatrixZeroes_false.cpp.o:
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/73__SetMatrixZeroes_false.cpp.o
+.PHONY : leetcode/73__SetMatrixZeroes_false.cpp.o
+
+leetcode/73__SetMatrixZeroes_false.i: leetcode/73__SetMatrixZeroes_false.cpp.i
+
+.PHONY : leetcode/73__SetMatrixZeroes_false.i
+
+# target to preprocess a source file
+leetcode/73__SetMatrixZeroes_false.cpp.i:
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/73__SetMatrixZeroes_false.cpp.i
+.PHONY : leetcode/73__SetMatrixZeroes_false.cpp.i
+
+leetcode/73__SetMatrixZeroes_false.s: leetcode/73__SetMatrixZeroes_false.cpp.s
+
+.PHONY : leetcode/73__SetMatrixZeroes_false.s
+
+# target to generate assembly for a file
+leetcode/73__SetMatrixZeroes_false.cpp.s:
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/73__SetMatrixZeroes_false.cpp.s
+.PHONY : leetcode/73__SetMatrixZeroes_false.cpp.s
+
 leetcode/740_DeleteAndEarn.o: leetcode/740_DeleteAndEarn.cpp.o
 
 .PHONY : leetcode/740_DeleteAndEarn.o
@@ -417,6 +471,9 @@ help:
 	@echo "... leetcode/33_SearchInRotatedSortedArray_2.o"
 	@echo "... leetcode/33_SearchInRotatedSortedArray_2.i"
 	@echo "... leetcode/33_SearchInRotatedSortedArray_2.s"
+	@echo "... leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.o"
+	@echo "... leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.i"
+	@echo "... leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.s"
 	@echo "... leetcode/39_CombinationSum.o"
 	@echo "... leetcode/39_CombinationSum.i"
 	@echo "... leetcode/39_CombinationSum.s"
@@ -426,6 +483,9 @@ help:
 	@echo "... leetcode/47_PermutationsII.o"
 	@echo "... leetcode/47_PermutationsII.i"
 	@echo "... leetcode/47_PermutationsII.s"
+	@echo "... leetcode/73__SetMatrixZeroes_false.o"
+	@echo "... leetcode/73__SetMatrixZeroes_false.i"
+	@echo "... leetcode/73__SetMatrixZeroes_false.s"
 	@echo "... leetcode/740_DeleteAndEarn.o"
 	@echo "... leetcode/740_DeleteAndEarn.i"
 	@echo "... leetcode/740_DeleteAndEarn.s"

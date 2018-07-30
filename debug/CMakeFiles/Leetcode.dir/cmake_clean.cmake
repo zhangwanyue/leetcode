@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Leetcode.dir/leetcode/39_CombinationSum.cpp.o"
   "CMakeFiles/Leetcode.dir/leetcode/46_Permutations.cpp.o"
   "CMakeFiles/Leetcode.dir/leetcode/47_PermutationsII.cpp.o"
+  "CMakeFiles/Leetcode.dir/leetcode/73__SetMatrixZeroes_false.cpp.o"
+  "CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.o"
   "Leetcode.pdb"
   "Leetcode"
 )

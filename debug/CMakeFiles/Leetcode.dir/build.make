@@ -297,6 +297,54 @@ CMakeFiles/Leetcode.dir/leetcode/47_PermutationsII.cpp.o.provides: CMakeFiles/Le
 CMakeFiles/Leetcode.dir/leetcode/47_PermutationsII.cpp.o.provides.build: CMakeFiles/Leetcode.dir/leetcode/47_PermutationsII.cpp.o
 
 
+CMakeFiles/Leetcode.dir/leetcode/73__SetMatrixZeroes_false.cpp.o: CMakeFiles/Leetcode.dir/flags.make
+CMakeFiles/Leetcode.dir/leetcode/73__SetMatrixZeroes_false.cpp.o: ../leetcode/73_\ SetMatrixZeroes_false.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vera/CLionProjects/LeetCode/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Leetcode.dir/leetcode/73__SetMatrixZeroes_false.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Leetcode.dir/leetcode/73__SetMatrixZeroes_false.cpp.o -c "/home/vera/CLionProjects/LeetCode/leetcode/73_ SetMatrixZeroes_false.cpp"
+
+CMakeFiles/Leetcode.dir/leetcode/73__SetMatrixZeroes_false.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Leetcode.dir/leetcode/73__SetMatrixZeroes_false.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/vera/CLionProjects/LeetCode/leetcode/73_ SetMatrixZeroes_false.cpp" > CMakeFiles/Leetcode.dir/leetcode/73__SetMatrixZeroes_false.cpp.i
+
+CMakeFiles/Leetcode.dir/leetcode/73__SetMatrixZeroes_false.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Leetcode.dir/leetcode/73__SetMatrixZeroes_false.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/vera/CLionProjects/LeetCode/leetcode/73_ SetMatrixZeroes_false.cpp" -o CMakeFiles/Leetcode.dir/leetcode/73__SetMatrixZeroes_false.cpp.s
+
+CMakeFiles/Leetcode.dir/leetcode/73__SetMatrixZeroes_false.cpp.o.requires:
+
+.PHONY : CMakeFiles/Leetcode.dir/leetcode/73__SetMatrixZeroes_false.cpp.o.requires
+
+CMakeFiles/Leetcode.dir/leetcode/73__SetMatrixZeroes_false.cpp.o.provides: CMakeFiles/Leetcode.dir/leetcode/73__SetMatrixZeroes_false.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/73__SetMatrixZeroes_false.cpp.o.provides.build
+.PHONY : CMakeFiles/Leetcode.dir/leetcode/73__SetMatrixZeroes_false.cpp.o.provides
+
+CMakeFiles/Leetcode.dir/leetcode/73__SetMatrixZeroes_false.cpp.o.provides.build: CMakeFiles/Leetcode.dir/leetcode/73__SetMatrixZeroes_false.cpp.o
+
+
+CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.o: CMakeFiles/Leetcode.dir/flags.make
+CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.o: ../leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vera/CLionProjects/LeetCode/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.o -c /home/vera/CLionProjects/LeetCode/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp
+
+CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vera/CLionProjects/LeetCode/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp > CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.i
+
+CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vera/CLionProjects/LeetCode/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp -o CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.s
+
+CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.o.requires:
+
+.PHONY : CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.o.requires
+
+CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.o.provides: CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.o.provides.build
+.PHONY : CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.o.provides
+
+CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.o.provides.build: CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.o
+
+
 # Object files for target Leetcode
 Leetcode_OBJECTS = \
 "CMakeFiles/Leetcode.dir/leetcode/24_SwapNodesInPairs.cpp.o" \
@@ -308,7 +356,9 @@ Leetcode_OBJECTS = \
 "CMakeFiles/Leetcode.dir/leetcode/33_SearchInRotatedSortedArray_2.cpp.o" \
 "CMakeFiles/Leetcode.dir/leetcode/39_CombinationSum.cpp.o" \
 "CMakeFiles/Leetcode.dir/leetcode/46_Permutations.cpp.o" \
-"CMakeFiles/Leetcode.dir/leetcode/47_PermutationsII.cpp.o"
+"CMakeFiles/Leetcode.dir/leetcode/47_PermutationsII.cpp.o" \
+"CMakeFiles/Leetcode.dir/leetcode/73__SetMatrixZeroes_false.cpp.o" \
+"CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.o"
 
 # External object files for target Leetcode
 Leetcode_EXTERNAL_OBJECTS =
@@ -323,9 +373,11 @@ Leetcode: CMakeFiles/Leetcode.dir/leetcode/33_SearchInRotatedSortedArray_2.cpp.o
 Leetcode: CMakeFiles/Leetcode.dir/leetcode/39_CombinationSum.cpp.o
 Leetcode: CMakeFiles/Leetcode.dir/leetcode/46_Permutations.cpp.o
 Leetcode: CMakeFiles/Leetcode.dir/leetcode/47_PermutationsII.cpp.o
+Leetcode: CMakeFiles/Leetcode.dir/leetcode/73__SetMatrixZeroes_false.cpp.o
+Leetcode: CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.o
 Leetcode: CMakeFiles/Leetcode.dir/build.make
 Leetcode: CMakeFiles/Leetcode.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vera/CLionProjects/LeetCode/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Leetcode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vera/CLionProjects/LeetCode/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Leetcode"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Leetcode.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -343,6 +395,8 @@ CMakeFiles/Leetcode.dir/requires: CMakeFiles/Leetcode.dir/leetcode/33_SearchInRo
 CMakeFiles/Leetcode.dir/requires: CMakeFiles/Leetcode.dir/leetcode/39_CombinationSum.cpp.o.requires
 CMakeFiles/Leetcode.dir/requires: CMakeFiles/Leetcode.dir/leetcode/46_Permutations.cpp.o.requires
 CMakeFiles/Leetcode.dir/requires: CMakeFiles/Leetcode.dir/leetcode/47_PermutationsII.cpp.o.requires
+CMakeFiles/Leetcode.dir/requires: CMakeFiles/Leetcode.dir/leetcode/73__SetMatrixZeroes_false.cpp.o.requires
+CMakeFiles/Leetcode.dir/requires: CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.o.requires
 
 .PHONY : CMakeFiles/Leetcode.dir/requires
 

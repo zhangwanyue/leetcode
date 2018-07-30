@@ -42,6 +42,14 @@ iostream
 vector
 -
 
+/home/vera/CLionProjects/LeetCode/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+
 /home/vera/CLionProjects/LeetCode/leetcode/39_CombinationSum.cpp
 iostream
 -
@@ -64,6 +72,14 @@ iostream
 vector
 -
 map
+-
+algorithm
+-
+
+/home/vera/CLionProjects/LeetCode/leetcode/73_ SetMatrixZeroes_false.cpp
+iostream
+-
+vector
 -
 algorithm
 -
