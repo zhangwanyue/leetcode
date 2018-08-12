@@ -16,6 +16,7 @@ using namespace std;
  * 要直接写成：
  * find(res+'(', leftPos+1, rightPos, n);
  */
+
 class Solution {
 public:
     vector<string> resVec;

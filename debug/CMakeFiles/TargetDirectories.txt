@@ -1,0 +1,3 @@
+/home/vera/CLionProjects/LeetCode/debug/CMakeFiles/rebuild_cache.dir
+/home/vera/CLionProjects/LeetCode/debug/CMakeFiles/edit_cache.dir
+/home/vera/CLionProjects/LeetCode/debug/CMakeFiles/Leetcode.dir
