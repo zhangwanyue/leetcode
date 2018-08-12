@@ -35,7 +35,7 @@ public:
     }
 };
 
-int main(){
-    int target = 2;
-    cout<<(new Solution)->reachNumber(target);
-}
+//int main(){
+//    int target = 2;
+//    cout<<(new Solution)->reachNumber(target);
+//}
