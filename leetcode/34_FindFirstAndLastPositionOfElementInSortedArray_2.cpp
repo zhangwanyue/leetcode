@@ -17,12 +17,16 @@ private:
     int extremeInsertionIndex(vector<int>& nums, int target, bool left) {
         int lo = 0;
         int hi = nums.size();
+        //lo==hi时结束
+        //if(left)，结束状态：
+        //{num[hi] >= target && num[lo-1] < target && hi == lo}
+        //if(right)，结束状态：
+        //{num[hi] > target && num[lo-1] <= target && hi == lo}
         while (lo < hi) {
             int mid = (lo + hi) / 2;
             if (nums[mid] > target || (left && target == nums[mid])) {
                 hi = mid;
-            }
-            else {
+            } else {
                 lo = mid+1;
             }
         }
@@ -32,27 +36,23 @@ private:
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
         vector<int> targetRange = {-1, -1};
-
         int leftIdx = extremeInsertionIndex(nums, target, true);
-
         // assert that `leftIdx` is within the array bounds and that `target`
         // is actually in `nums`.
         if (leftIdx == nums.size() || nums[leftIdx] != target) {
             return targetRange;
         }
-
         targetRange[0] = leftIdx;
         targetRange[1] = extremeInsertionIndex(nums, target, false)-1;
-
         return targetRange;
     }
 };
 
-int main(){
-    vector<int> nums = {5, 7, 7, 8, 8, 10};
-    int target = 8;
-    vector<int> vec = (new Solution)->searchRange(nums, target);
-    for(int num : vec){
-        cout<<num<<" ";
-    }
-}
+//int main(){
+//    vector<int> nums = {5, 7, 7, 8, 8, 10};
+//    int target = 8;
+//    vector<int> vec = (new Solution)->searchRange(nums, target);
+//    for(int num : vec){
+//        cout<<num<<" ";
+//    }
+//}
