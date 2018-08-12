@@ -30,6 +30,22 @@ vector
 algorithm
 -
 
+/home/vera/CLionProjects/LeetCode/leetcode/32_LongestValidParentheses.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+
+/home/vera/CLionProjects/LeetCode/leetcode/338_CountingBits.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+
 /home/vera/CLionProjects/LeetCode/leetcode/33_SearchInRotatedSortedArray.cpp
 iostream
 -
@@ -42,12 +58,18 @@ iostream
 vector
 -
 
-/home/vera/CLionProjects/LeetCode/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp
+/home/vera/CLionProjects/LeetCode/leetcode/34_FindFirstAndLastPositionOfElementInSortedArray.cpp
 iostream
 -
 vector
 -
 algorithm
+-
+
+/home/vera/CLionProjects/LeetCode/leetcode/34_FindFirstAndLastPositionOfElementInSortedArray_2.cpp
+iostream
+-
+vector
 -
 
 /home/vera/CLionProjects/LeetCode/leetcode/39_CombinationSum.cpp
@@ -72,6 +94,22 @@ iostream
 vector
 -
 map
+-
+algorithm
+-
+
+/home/vera/CLionProjects/LeetCode/leetcode/486_PredictTheWinner.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+
+/home/vera/CLionProjects/LeetCode/leetcode/486_PredictTheWinner_2.cpp
+iostream
+-
+vector
 -
 algorithm
 -

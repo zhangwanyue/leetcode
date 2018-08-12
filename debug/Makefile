@@ -204,6 +204,60 @@ leetcode/31_NextPermutation.cpp.s:
 	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/31_NextPermutation.cpp.s
 .PHONY : leetcode/31_NextPermutation.cpp.s
 
+leetcode/32_LongestValidParentheses.o: leetcode/32_LongestValidParentheses.cpp.o
+
+.PHONY : leetcode/32_LongestValidParentheses.o
+
+# target to build an object file
+leetcode/32_LongestValidParentheses.cpp.o:
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/32_LongestValidParentheses.cpp.o
+.PHONY : leetcode/32_LongestValidParentheses.cpp.o
+
+leetcode/32_LongestValidParentheses.i: leetcode/32_LongestValidParentheses.cpp.i
+
+.PHONY : leetcode/32_LongestValidParentheses.i
+
+# target to preprocess a source file
+leetcode/32_LongestValidParentheses.cpp.i:
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/32_LongestValidParentheses.cpp.i
+.PHONY : leetcode/32_LongestValidParentheses.cpp.i
+
+leetcode/32_LongestValidParentheses.s: leetcode/32_LongestValidParentheses.cpp.s
+
+.PHONY : leetcode/32_LongestValidParentheses.s
+
+# target to generate assembly for a file
+leetcode/32_LongestValidParentheses.cpp.s:
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/32_LongestValidParentheses.cpp.s
+.PHONY : leetcode/32_LongestValidParentheses.cpp.s
+
+leetcode/338_CountingBits.o: leetcode/338_CountingBits.cpp.o
+
+.PHONY : leetcode/338_CountingBits.o
+
+# target to build an object file
+leetcode/338_CountingBits.cpp.o:
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/338_CountingBits.cpp.o
+.PHONY : leetcode/338_CountingBits.cpp.o
+
+leetcode/338_CountingBits.i: leetcode/338_CountingBits.cpp.i
+
+.PHONY : leetcode/338_CountingBits.i
+
+# target to preprocess a source file
+leetcode/338_CountingBits.cpp.i:
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/338_CountingBits.cpp.i
+.PHONY : leetcode/338_CountingBits.cpp.i
+
+leetcode/338_CountingBits.s: leetcode/338_CountingBits.cpp.s
+
+.PHONY : leetcode/338_CountingBits.s
+
+# target to generate assembly for a file
+leetcode/338_CountingBits.cpp.s:
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/338_CountingBits.cpp.s
+.PHONY : leetcode/338_CountingBits.cpp.s
+
 leetcode/33_SearchInRotatedSortedArray.o: leetcode/33_SearchInRotatedSortedArray.cpp.o
 
 .PHONY : leetcode/33_SearchInRotatedSortedArray.o
@@ -258,32 +312,59 @@ leetcode/33_SearchInRotatedSortedArray_2.cpp.s:
 	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/33_SearchInRotatedSortedArray_2.cpp.s
 .PHONY : leetcode/33_SearchInRotatedSortedArray_2.cpp.s
 
-leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.o: leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.o
+leetcode/34_FindFirstAndLastPositionOfElementInSortedArray.o: leetcode/34_FindFirstAndLastPositionOfElementInSortedArray.cpp.o
 
-.PHONY : leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.o
+.PHONY : leetcode/34_FindFirstAndLastPositionOfElementInSortedArray.o
 
 # target to build an object file
-leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.o:
-	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.o
-.PHONY : leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.o
+leetcode/34_FindFirstAndLastPositionOfElementInSortedArray.cpp.o:
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/34_FindFirstAndLastPositionOfElementInSortedArray.cpp.o
+.PHONY : leetcode/34_FindFirstAndLastPositionOfElementInSortedArray.cpp.o
 
-leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.i: leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.i
+leetcode/34_FindFirstAndLastPositionOfElementInSortedArray.i: leetcode/34_FindFirstAndLastPositionOfElementInSortedArray.cpp.i
 
-.PHONY : leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.i
+.PHONY : leetcode/34_FindFirstAndLastPositionOfElementInSortedArray.i
 
 # target to preprocess a source file
-leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.i:
-	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.i
-.PHONY : leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.i
+leetcode/34_FindFirstAndLastPositionOfElementInSortedArray.cpp.i:
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/34_FindFirstAndLastPositionOfElementInSortedArray.cpp.i
+.PHONY : leetcode/34_FindFirstAndLastPositionOfElementInSortedArray.cpp.i
 
-leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.s: leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.s
+leetcode/34_FindFirstAndLastPositionOfElementInSortedArray.s: leetcode/34_FindFirstAndLastPositionOfElementInSortedArray.cpp.s
 
-.PHONY : leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.s
+.PHONY : leetcode/34_FindFirstAndLastPositionOfElementInSortedArray.s
 
 # target to generate assembly for a file
-leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.s:
-	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.s
-.PHONY : leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.s
+leetcode/34_FindFirstAndLastPositionOfElementInSortedArray.cpp.s:
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/34_FindFirstAndLastPositionOfElementInSortedArray.cpp.s
+.PHONY : leetcode/34_FindFirstAndLastPositionOfElementInSortedArray.cpp.s
+
+leetcode/34_FindFirstAndLastPositionOfElementInSortedArray_2.o: leetcode/34_FindFirstAndLastPositionOfElementInSortedArray_2.cpp.o
+
+.PHONY : leetcode/34_FindFirstAndLastPositionOfElementInSortedArray_2.o
+
+# target to build an object file
+leetcode/34_FindFirstAndLastPositionOfElementInSortedArray_2.cpp.o:
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/34_FindFirstAndLastPositionOfElementInSortedArray_2.cpp.o
+.PHONY : leetcode/34_FindFirstAndLastPositionOfElementInSortedArray_2.cpp.o
+
+leetcode/34_FindFirstAndLastPositionOfElementInSortedArray_2.i: leetcode/34_FindFirstAndLastPositionOfElementInSortedArray_2.cpp.i
+
+.PHONY : leetcode/34_FindFirstAndLastPositionOfElementInSortedArray_2.i
+
+# target to preprocess a source file
+leetcode/34_FindFirstAndLastPositionOfElementInSortedArray_2.cpp.i:
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/34_FindFirstAndLastPositionOfElementInSortedArray_2.cpp.i
+.PHONY : leetcode/34_FindFirstAndLastPositionOfElementInSortedArray_2.cpp.i
+
+leetcode/34_FindFirstAndLastPositionOfElementInSortedArray_2.s: leetcode/34_FindFirstAndLastPositionOfElementInSortedArray_2.cpp.s
+
+.PHONY : leetcode/34_FindFirstAndLastPositionOfElementInSortedArray_2.s
+
+# target to generate assembly for a file
+leetcode/34_FindFirstAndLastPositionOfElementInSortedArray_2.cpp.s:
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/34_FindFirstAndLastPositionOfElementInSortedArray_2.cpp.s
+.PHONY : leetcode/34_FindFirstAndLastPositionOfElementInSortedArray_2.cpp.s
 
 leetcode/39_CombinationSum.o: leetcode/39_CombinationSum.cpp.o
 
@@ -365,6 +446,60 @@ leetcode/47_PermutationsII.s: leetcode/47_PermutationsII.cpp.s
 leetcode/47_PermutationsII.cpp.s:
 	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/47_PermutationsII.cpp.s
 .PHONY : leetcode/47_PermutationsII.cpp.s
+
+leetcode/486_PredictTheWinner.o: leetcode/486_PredictTheWinner.cpp.o
+
+.PHONY : leetcode/486_PredictTheWinner.o
+
+# target to build an object file
+leetcode/486_PredictTheWinner.cpp.o:
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/486_PredictTheWinner.cpp.o
+.PHONY : leetcode/486_PredictTheWinner.cpp.o
+
+leetcode/486_PredictTheWinner.i: leetcode/486_PredictTheWinner.cpp.i
+
+.PHONY : leetcode/486_PredictTheWinner.i
+
+# target to preprocess a source file
+leetcode/486_PredictTheWinner.cpp.i:
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/486_PredictTheWinner.cpp.i
+.PHONY : leetcode/486_PredictTheWinner.cpp.i
+
+leetcode/486_PredictTheWinner.s: leetcode/486_PredictTheWinner.cpp.s
+
+.PHONY : leetcode/486_PredictTheWinner.s
+
+# target to generate assembly for a file
+leetcode/486_PredictTheWinner.cpp.s:
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/486_PredictTheWinner.cpp.s
+.PHONY : leetcode/486_PredictTheWinner.cpp.s
+
+leetcode/486_PredictTheWinner_2.o: leetcode/486_PredictTheWinner_2.cpp.o
+
+.PHONY : leetcode/486_PredictTheWinner_2.o
+
+# target to build an object file
+leetcode/486_PredictTheWinner_2.cpp.o:
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/486_PredictTheWinner_2.cpp.o
+.PHONY : leetcode/486_PredictTheWinner_2.cpp.o
+
+leetcode/486_PredictTheWinner_2.i: leetcode/486_PredictTheWinner_2.cpp.i
+
+.PHONY : leetcode/486_PredictTheWinner_2.i
+
+# target to preprocess a source file
+leetcode/486_PredictTheWinner_2.cpp.i:
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/486_PredictTheWinner_2.cpp.i
+.PHONY : leetcode/486_PredictTheWinner_2.cpp.i
+
+leetcode/486_PredictTheWinner_2.s: leetcode/486_PredictTheWinner_2.cpp.s
+
+.PHONY : leetcode/486_PredictTheWinner_2.s
+
+# target to generate assembly for a file
+leetcode/486_PredictTheWinner_2.cpp.s:
+	$(MAKE) -f CMakeFiles/Leetcode.dir/build.make CMakeFiles/Leetcode.dir/leetcode/486_PredictTheWinner_2.cpp.s
+.PHONY : leetcode/486_PredictTheWinner_2.cpp.s
 
 leetcode/73__SetMatrixZeroes_false.o: leetcode/73__SetMatrixZeroes_false.cpp.o
 
@@ -465,15 +600,24 @@ help:
 	@echo "... leetcode/31_NextPermutation.o"
 	@echo "... leetcode/31_NextPermutation.i"
 	@echo "... leetcode/31_NextPermutation.s"
+	@echo "... leetcode/32_LongestValidParentheses.o"
+	@echo "... leetcode/32_LongestValidParentheses.i"
+	@echo "... leetcode/32_LongestValidParentheses.s"
+	@echo "... leetcode/338_CountingBits.o"
+	@echo "... leetcode/338_CountingBits.i"
+	@echo "... leetcode/338_CountingBits.s"
 	@echo "... leetcode/33_SearchInRotatedSortedArray.o"
 	@echo "... leetcode/33_SearchInRotatedSortedArray.i"
 	@echo "... leetcode/33_SearchInRotatedSortedArray.s"
 	@echo "... leetcode/33_SearchInRotatedSortedArray_2.o"
 	@echo "... leetcode/33_SearchInRotatedSortedArray_2.i"
 	@echo "... leetcode/33_SearchInRotatedSortedArray_2.s"
-	@echo "... leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.o"
-	@echo "... leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.i"
-	@echo "... leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.s"
+	@echo "... leetcode/34_FindFirstAndLastPositionOfElementInSortedArray.o"
+	@echo "... leetcode/34_FindFirstAndLastPositionOfElementInSortedArray.i"
+	@echo "... leetcode/34_FindFirstAndLastPositionOfElementInSortedArray.s"
+	@echo "... leetcode/34_FindFirstAndLastPositionOfElementInSortedArray_2.o"
+	@echo "... leetcode/34_FindFirstAndLastPositionOfElementInSortedArray_2.i"
+	@echo "... leetcode/34_FindFirstAndLastPositionOfElementInSortedArray_2.s"
 	@echo "... leetcode/39_CombinationSum.o"
 	@echo "... leetcode/39_CombinationSum.i"
 	@echo "... leetcode/39_CombinationSum.s"
@@ -483,6 +627,12 @@ help:
 	@echo "... leetcode/47_PermutationsII.o"
 	@echo "... leetcode/47_PermutationsII.i"
 	@echo "... leetcode/47_PermutationsII.s"
+	@echo "... leetcode/486_PredictTheWinner.o"
+	@echo "... leetcode/486_PredictTheWinner.i"
+	@echo "... leetcode/486_PredictTheWinner.s"
+	@echo "... leetcode/486_PredictTheWinner_2.o"
+	@echo "... leetcode/486_PredictTheWinner_2.i"
+	@echo "... leetcode/486_PredictTheWinner_2.s"
 	@echo "... leetcode/73__SetMatrixZeroes_false.o"
 	@echo "... leetcode/73__SetMatrixZeroes_false.i"
 	@echo "... leetcode/73__SetMatrixZeroes_false.s"

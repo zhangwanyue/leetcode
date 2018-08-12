@@ -7,17 +7,27 @@ CMakeFiles/Leetcode.dir/leetcode/29_DivideTwoIntegers.cpp.o: ../leetcode/29_Divi
 
 CMakeFiles/Leetcode.dir/leetcode/31_NextPermutation.cpp.o: ../leetcode/31_NextPermutation.cpp
 
+CMakeFiles/Leetcode.dir/leetcode/32_LongestValidParentheses.cpp.o: ../leetcode/32_LongestValidParentheses.cpp
+
+CMakeFiles/Leetcode.dir/leetcode/338_CountingBits.cpp.o: ../leetcode/338_CountingBits.cpp
+
 CMakeFiles/Leetcode.dir/leetcode/33_SearchInRotatedSortedArray.cpp.o: ../leetcode/33_SearchInRotatedSortedArray.cpp
 
 CMakeFiles/Leetcode.dir/leetcode/33_SearchInRotatedSortedArray_2.cpp.o: ../leetcode/33_SearchInRotatedSortedArray_2.cpp
 
-CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.o: ../leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp
+CMakeFiles/Leetcode.dir/leetcode/34_FindFirstAndLastPositionOfElementInSortedArray.cpp.o: ../leetcode/34_FindFirstAndLastPositionOfElementInSortedArray.cpp
+
+CMakeFiles/Leetcode.dir/leetcode/34_FindFirstAndLastPositionOfElementInSortedArray_2.cpp.o: ../leetcode/34_FindFirstAndLastPositionOfElementInSortedArray_2.cpp
 
 CMakeFiles/Leetcode.dir/leetcode/39_CombinationSum.cpp.o: ../leetcode/39_CombinationSum.cpp
 
 CMakeFiles/Leetcode.dir/leetcode/46_Permutations.cpp.o: ../leetcode/46_Permutations.cpp
 
 CMakeFiles/Leetcode.dir/leetcode/47_PermutationsII.cpp.o: ../leetcode/47_PermutationsII.cpp
+
+CMakeFiles/Leetcode.dir/leetcode/486_PredictTheWinner.cpp.o: ../leetcode/486_PredictTheWinner.cpp
+
+CMakeFiles/Leetcode.dir/leetcode/486_PredictTheWinner_2.cpp.o: ../leetcode/486_PredictTheWinner_2.cpp
 
 CMakeFiles/Leetcode.dir/leetcode/73__SetMatrixZeroes_false.cpp.o: ../leetcode/73_\ SetMatrixZeroes_false.cpp
 

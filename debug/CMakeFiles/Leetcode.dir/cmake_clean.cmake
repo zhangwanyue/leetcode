@@ -10,7 +10,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/Leetcode.dir/leetcode/46_Permutations.cpp.o"
   "CMakeFiles/Leetcode.dir/leetcode/47_PermutationsII.cpp.o"
   "CMakeFiles/Leetcode.dir/leetcode/73__SetMatrixZeroes_false.cpp.o"
-  "CMakeFiles/Leetcode.dir/leetcode/34._FindFirstAndLastPositionOfElementInSortedArray.cpp.o"
+  "CMakeFiles/Leetcode.dir/leetcode/34_FindFirstAndLastPositionOfElementInSortedArray.cpp.o"
+  "CMakeFiles/Leetcode.dir/leetcode/34_FindFirstAndLastPositionOfElementInSortedArray_2.cpp.o"
+  "CMakeFiles/Leetcode.dir/leetcode/32_LongestValidParentheses.cpp.o"
+  "CMakeFiles/Leetcode.dir/leetcode/486_PredictTheWinner.cpp.o"
+  "CMakeFiles/Leetcode.dir/leetcode/486_PredictTheWinner_2.cpp.o"
+  "CMakeFiles/Leetcode.dir/leetcode/338_CountingBits.cpp.o"
   "Leetcode.pdb"
   "Leetcode"
 )
