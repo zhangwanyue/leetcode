@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/vera/CLionProjects/leetcode/leetcode/64_MinimumPathSum.cpp" "/home/vera/CLionProjects/leetcode/debug/CMakeFiles/Leetcode.dir/leetcode/64_MinimumPathSum.cpp.o"
+  "/home/vera/CLionProjects/LeetCode/leetcode/120_Triangle.cpp" "/home/vera/CLionProjects/LeetCode/debug/CMakeFiles/Leetcode.dir/leetcode/120_Triangle.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

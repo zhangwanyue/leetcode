@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/vera/CLionProjects/leetcode/leetcode/64_MinimumPathSum.cpp
+/home/vera/CLionProjects/LeetCode/leetcode/120_Triangle.cpp
 iostream
 -
 vector
 -
-algorithm
+climits
 -
 
