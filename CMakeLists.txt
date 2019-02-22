@@ -3,5 +3,5 @@ project(LeetCode)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Leetcode leetcode/64_MinimumPathSum.cpp)
+add_executable(Leetcode "leetcode/213_House Robber II_2.cpp")
 

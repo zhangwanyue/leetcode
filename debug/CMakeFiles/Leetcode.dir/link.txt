@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/Leetcode.dir/leetcode/64_MinimumPathSum.cpp.o  -o Leetcode 

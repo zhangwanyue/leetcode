@@ -1,11 +1,14 @@
 //
 // Created by vera on 18-8-16.
 //
-# include<iostream>
+# include <iostream>
 # include <vector>
-#include <algorithm>
+# include <algorithm>
 using namespace std;
 
+/**
+ * 二位dp数组来做
+ */
 class Solution {
 public:
     int minPathSum(vector<vector<int>>& grid) {
