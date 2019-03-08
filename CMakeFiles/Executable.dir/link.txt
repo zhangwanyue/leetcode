@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Executable.dir/exec/VectorTest.cpp.o  -o Executable 
