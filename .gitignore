@@ -8,7 +8,8 @@
 
 # user files
 test/
-*_false.cpp
 /cmake-build-debug
-*_bad.cpp
 /debug
+
+*_false.cpp
+*_bad.cpp
