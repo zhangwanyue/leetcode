@@ -17,8 +17,9 @@ int main(){
     //静态初始化
     vector<int> vec = {0,1,2,3,4};
     vector<vector<int> > matrix = {{0,1,2},{3,4}};
-    //下标访问
+    //元素访问
     cout<<matrix[1][1]<<" "<<vec[0]<<endl;
+    cout<<matrix.at(1).at(1)<<" "<<vec.at(0)<<endl;
     //迭代器访问（end()指向的是最后一个元素的下一个位置）
     for(vector<int>::iterator iter = vec.begin(); iter!=vec.end(); iter++){
         cout<< *iter <<" ";
@@ -79,6 +80,10 @@ int main(){
     printVec(vec);
     vec.clear();
     printVec(vec);
-
+    //比较
+    vector<int> vector1 = {0,1,2,3};
+    vector<int> vector2 = {0,1,2,3};
+    vector<int> vector3 = {0,1,3};
+    cout<< (vector1==vector2) << " " << (vector1>vector3) << endl;
 }
 
