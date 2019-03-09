@@ -3,5 +3,5 @@ project(LeetCode)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Main exercise/VectorTest.cpp)
+add_executable(Main exercise/ListTest.cpp)
 

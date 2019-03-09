@@ -6,8 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/home/vera/CLionProjects/LeetCode/exercise/VectorTest.cpp
+/home/vera/CLionProjects/leetcode/exercise/ListTest.cpp
 iostream
+-
+list
 -
 vector
 -
