@@ -123,32 +123,32 @@ Main/fast:
 	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/build
 .PHONY : Main/fast
 
-exercise/DequeTest.o: exercise/DequeTest.cpp.o
+exercise/ListTest.o: exercise/ListTest.cpp.o
 
-.PHONY : exercise/DequeTest.o
+.PHONY : exercise/ListTest.o
 
 # target to build an object file
-exercise/DequeTest.cpp.o:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/DequeTest.cpp.o
-.PHONY : exercise/DequeTest.cpp.o
+exercise/ListTest.cpp.o:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/ListTest.cpp.o
+.PHONY : exercise/ListTest.cpp.o
 
-exercise/DequeTest.i: exercise/DequeTest.cpp.i
+exercise/ListTest.i: exercise/ListTest.cpp.i
 
-.PHONY : exercise/DequeTest.i
+.PHONY : exercise/ListTest.i
 
 # target to preprocess a source file
-exercise/DequeTest.cpp.i:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/DequeTest.cpp.i
-.PHONY : exercise/DequeTest.cpp.i
+exercise/ListTest.cpp.i:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/ListTest.cpp.i
+.PHONY : exercise/ListTest.cpp.i
 
-exercise/DequeTest.s: exercise/DequeTest.cpp.s
+exercise/ListTest.s: exercise/ListTest.cpp.s
 
-.PHONY : exercise/DequeTest.s
+.PHONY : exercise/ListTest.s
 
 # target to generate assembly for a file
-exercise/DequeTest.cpp.s:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/DequeTest.cpp.s
-.PHONY : exercise/DequeTest.cpp.s
+exercise/ListTest.cpp.s:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/ListTest.cpp.s
+.PHONY : exercise/ListTest.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Main"
-	@echo "... exercise/DequeTest.o"
-	@echo "... exercise/DequeTest.i"
-	@echo "... exercise/DequeTest.s"
+	@echo "... exercise/ListTest.o"
+	@echo "... exercise/ListTest.i"
+	@echo "... exercise/ListTest.s"
 .PHONY : help
 
 

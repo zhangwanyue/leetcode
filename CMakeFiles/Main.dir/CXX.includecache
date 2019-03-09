@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/vera/CLionProjects/leetcode/exercise/DequeTest.cpp
+/home/vera/CLionProjects/leetcode/exercise/ListTest.cpp
 iostream
 -
-deque
+list
 -
 vector
--
-typeinfo
 -
 

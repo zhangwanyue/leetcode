@@ -57,38 +57,38 @@ include CMakeFiles/Main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Main.dir/flags.make
 
-CMakeFiles/Main.dir/exercise/DequeTest.cpp.o: CMakeFiles/Main.dir/flags.make
-CMakeFiles/Main.dir/exercise/DequeTest.cpp.o: exercise/DequeTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vera/CLionProjects/leetcode/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Main.dir/exercise/DequeTest.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main.dir/exercise/DequeTest.cpp.o -c /home/vera/CLionProjects/leetcode/exercise/DequeTest.cpp
+CMakeFiles/Main.dir/exercise/ListTest.cpp.o: CMakeFiles/Main.dir/flags.make
+CMakeFiles/Main.dir/exercise/ListTest.cpp.o: exercise/ListTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vera/CLionProjects/leetcode/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Main.dir/exercise/ListTest.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main.dir/exercise/ListTest.cpp.o -c /home/vera/CLionProjects/leetcode/exercise/ListTest.cpp
 
-CMakeFiles/Main.dir/exercise/DequeTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Main.dir/exercise/DequeTest.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vera/CLionProjects/leetcode/exercise/DequeTest.cpp > CMakeFiles/Main.dir/exercise/DequeTest.cpp.i
+CMakeFiles/Main.dir/exercise/ListTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Main.dir/exercise/ListTest.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vera/CLionProjects/leetcode/exercise/ListTest.cpp > CMakeFiles/Main.dir/exercise/ListTest.cpp.i
 
-CMakeFiles/Main.dir/exercise/DequeTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Main.dir/exercise/DequeTest.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vera/CLionProjects/leetcode/exercise/DequeTest.cpp -o CMakeFiles/Main.dir/exercise/DequeTest.cpp.s
+CMakeFiles/Main.dir/exercise/ListTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Main.dir/exercise/ListTest.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vera/CLionProjects/leetcode/exercise/ListTest.cpp -o CMakeFiles/Main.dir/exercise/ListTest.cpp.s
 
-CMakeFiles/Main.dir/exercise/DequeTest.cpp.o.requires:
+CMakeFiles/Main.dir/exercise/ListTest.cpp.o.requires:
 
-.PHONY : CMakeFiles/Main.dir/exercise/DequeTest.cpp.o.requires
+.PHONY : CMakeFiles/Main.dir/exercise/ListTest.cpp.o.requires
 
-CMakeFiles/Main.dir/exercise/DequeTest.cpp.o.provides: CMakeFiles/Main.dir/exercise/DequeTest.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/DequeTest.cpp.o.provides.build
-.PHONY : CMakeFiles/Main.dir/exercise/DequeTest.cpp.o.provides
+CMakeFiles/Main.dir/exercise/ListTest.cpp.o.provides: CMakeFiles/Main.dir/exercise/ListTest.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/ListTest.cpp.o.provides.build
+.PHONY : CMakeFiles/Main.dir/exercise/ListTest.cpp.o.provides
 
-CMakeFiles/Main.dir/exercise/DequeTest.cpp.o.provides.build: CMakeFiles/Main.dir/exercise/DequeTest.cpp.o
+CMakeFiles/Main.dir/exercise/ListTest.cpp.o.provides.build: CMakeFiles/Main.dir/exercise/ListTest.cpp.o
 
 
 # Object files for target Main
 Main_OBJECTS = \
-"CMakeFiles/Main.dir/exercise/DequeTest.cpp.o"
+"CMakeFiles/Main.dir/exercise/ListTest.cpp.o"
 
 # External object files for target Main
 Main_EXTERNAL_OBJECTS =
 
-Main: CMakeFiles/Main.dir/exercise/DequeTest.cpp.o
+Main: CMakeFiles/Main.dir/exercise/ListTest.cpp.o
 Main: CMakeFiles/Main.dir/build.make
 Main: CMakeFiles/Main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vera/CLionProjects/leetcode/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Main"
@@ -99,7 +99,7 @@ CMakeFiles/Main.dir/build: Main
 
 .PHONY : CMakeFiles/Main.dir/build
 
-CMakeFiles/Main.dir/requires: CMakeFiles/Main.dir/exercise/DequeTest.cpp.o.requires
+CMakeFiles/Main.dir/requires: CMakeFiles/Main.dir/exercise/ListTest.cpp.o.requires
 
 .PHONY : CMakeFiles/Main.dir/requires
 

@@ -45,9 +45,9 @@ int main(){
         }
     }
     cout<<endl;
-    for(auto iter1 : matrix){
-        for(auto iter2 : iter1){
-            cout<< iter2 <<" ";
+    for(auto item1 : matrix){
+        for(auto item2 : item1){
+            cout<< item2 <<" ";
         }
     }
     cout<<endl;
@@ -77,9 +77,9 @@ int main(){
     printVec(vec);
     vec.pop_back();
     printVec(vec);
+    //清除全部元素
     vec.clear();
     printVec(vec);
-
 
 }
 

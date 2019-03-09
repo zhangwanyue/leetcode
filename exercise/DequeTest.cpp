@@ -30,8 +30,8 @@ int main(){
         cout<< *iter <<" ";
     }
     cout<<endl;
-    for(auto iter : deque1){
-        cout<< iter <<" ";
+    for(auto item : deque1){
+        cout<< item <<" ";
     }
     //双层deque迭代器访问
     for(deque<deque<int>>::iterator iter1 = deque2.begin(); iter1 != deque2.end(); iter1++){
@@ -46,9 +46,9 @@ int main(){
         }
     }
     cout<<endl;
-    for(auto iter1 : deque2){
-        for(auto iter2 : iter1){
-            cout<< iter2 <<" ";
+    for(auto item1 : deque2){
+        for(auto item2 : item1){
+            cout<< item2 <<" ";
         }
     }
     cout<<endl;
@@ -79,6 +79,8 @@ int main(){
     printDeque(deque1);
     deque1.pop_front();
     printDeque(deque1);
+    //清除全部元素
+    deque1.clear();
     //比较
     deque<int> deque3 = {0,1,2,3};
     deque<int> deque4 = {0,1,2,3};
