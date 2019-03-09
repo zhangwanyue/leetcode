@@ -32,7 +32,7 @@ int main(){
         cout<< iter <<" ";
     }
     cout<<endl;
-    //双层数组迭代器访问
+    //双层vector迭代器访问
     for(vector<vector<int>>::iterator iter1 = matrix.begin(); iter1 != matrix.end(); iter1++){
         for(vector<int>::iterator iter2 = (*iter1).begin(); iter2 != (*iter1).end(); iter2++){
             cout<< *iter2 <<" ";
@@ -64,10 +64,10 @@ int main(){
     cout<<"size:"<<vec.size()<<" isEmpty:"<<vec.empty()<<" max_size:"<<vec.max_size()<<" capacity:"<<vec.capacity()<<endl;
     //插入元素
     printVec(vec);
-    vec.insert(vec.begin()+2, 10);
+    vec.insert(vec.begin()+2, 10); //插入单个元素
     printVec(vec);
     int arr[] = {101, 102, 103};
-    vec.insert(vec.begin()+3, arr, arr+3); //最后一个参数是指向要添加的最后一个元素的下一个元素的迭代器
+    vec.insert(vec.begin()+3, arr, arr+3); //插入多个元素（最后一个参数是指向要添加的最后一个元素的下一个元素的迭代器）
     printVec(vec);
     vector<int> vec2 = {104, 105, 106};
     vec.insert(vec.begin()+6, vec2.begin(), vec2.end());
@@ -79,6 +79,7 @@ int main(){
     printVec(vec);
     vec.clear();
     printVec(vec);
+
 
 }
 
