@@ -19,6 +19,8 @@ int main(){
     //静态初始化
     list<int> list1 = {0, 1, 2, 3};
     list<list<int>> list2 = {{0, 1, 2, 3}, {4, 5}};
+    //初始化固定大小
+    list<int> listTemp(10);
     //元素访问
     cout<<list1.front()<<" "<<list1.back()<<endl;
     //迭代器

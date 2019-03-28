@@ -17,9 +17,12 @@ int main(){
     //静态初始化
     vector<int> vec = {0,1,2,3,4};
     vector<vector<int> > matrix = {{0,1,2},{3,4}};
+    //初始化固定大小
+    vector<int> vecTemp(10);
     //元素访问
     cout<<matrix[1][1]<<" "<<vec[0]<<endl;
     cout<<matrix.at(1).at(1)<<" "<<vec.at(0)<<endl;
+    cout<<vec.back()<<vec.front()<<endl;//获取最后一个元素和第一个元素
     //迭代器访问（end()指向的是最后一个元素的下一个位置）
     for(vector<int>::iterator iter = vec.begin(); iter!=vec.end(); iter++){
         cout<< *iter <<" ";

@@ -3,5 +3,4 @@ project(LeetCode)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Main exercise/ListTest.cpp)
-
+add_executable(Main exercise/Sort.cpp)

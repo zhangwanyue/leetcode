@@ -19,8 +19,11 @@ int main(){
     //静态初始化
     deque<int> deque1 = {0, 1, 2, 3};
     deque<deque<int> > deque2 = {{0, 1, 2, 3}, {0, 1, 2}};
+    //初始化固定大小
+    deque<int> dequeTemp(10);
     //元素访问
     cout<<deque1[1]<<" "<<deque2[0][1]<<endl;
+    cout<<deque1.back()<<deque1.front()<<endl;//获取最后一个元素和第一个元素
     //迭代器访问
     for(deque<int>::iterator iter = deque1.begin(); iter != deque1.end(); iter++){
         cout<< *iter <<" ";
