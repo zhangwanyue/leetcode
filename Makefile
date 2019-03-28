@@ -123,32 +123,32 @@ Main/fast:
 	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/build
 .PHONY : Main/fast
 
-exercise/Sort.o: exercise/Sort.cpp.o
+exercise/MapTest.o: exercise/MapTest.cpp.o
 
-.PHONY : exercise/Sort.o
+.PHONY : exercise/MapTest.o
 
 # target to build an object file
-exercise/Sort.cpp.o:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/Sort.cpp.o
-.PHONY : exercise/Sort.cpp.o
+exercise/MapTest.cpp.o:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/MapTest.cpp.o
+.PHONY : exercise/MapTest.cpp.o
 
-exercise/Sort.i: exercise/Sort.cpp.i
+exercise/MapTest.i: exercise/MapTest.cpp.i
 
-.PHONY : exercise/Sort.i
+.PHONY : exercise/MapTest.i
 
 # target to preprocess a source file
-exercise/Sort.cpp.i:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/Sort.cpp.i
-.PHONY : exercise/Sort.cpp.i
+exercise/MapTest.cpp.i:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/MapTest.cpp.i
+.PHONY : exercise/MapTest.cpp.i
 
-exercise/Sort.s: exercise/Sort.cpp.s
+exercise/MapTest.s: exercise/MapTest.cpp.s
 
-.PHONY : exercise/Sort.s
+.PHONY : exercise/MapTest.s
 
 # target to generate assembly for a file
-exercise/Sort.cpp.s:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/Sort.cpp.s
-.PHONY : exercise/Sort.cpp.s
+exercise/MapTest.cpp.s:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/MapTest.cpp.s
+.PHONY : exercise/MapTest.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Main"
-	@echo "... exercise/Sort.o"
-	@echo "... exercise/Sort.i"
-	@echo "... exercise/Sort.s"
+	@echo "... exercise/MapTest.o"
+	@echo "... exercise/MapTest.i"
+	@echo "... exercise/MapTest.s"
 .PHONY : help
 
 

@@ -1,7 +1,6 @@
 //
 // Created by vera on 19-3-19.
 //
-
 #include<iostream>
 #include <vector>
 #include<algorithm>

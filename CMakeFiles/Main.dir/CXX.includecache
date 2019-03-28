@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/vera/CLionProjects/LeetCode/exercise/Sort.cpp
+/home/vera/CLionProjects/LeetCode/exercise/MapTest.cpp
 iostream
 -
-vector
--
-algorithm
+map
 -
 
