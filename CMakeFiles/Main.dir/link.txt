@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Main.dir/exercise/MapTest.cpp.o  -o Main 
+/usr/bin/c++  -g   CMakeFiles/Main.dir/exercise/pointer/PointerTest.cpp.o  -o Main 

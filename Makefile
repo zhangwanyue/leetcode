@@ -123,32 +123,32 @@ Main/fast:
 	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/build
 .PHONY : Main/fast
 
-exercise/MapTest.o: exercise/MapTest.cpp.o
+exercise/pointer/PointerTest.o: exercise/pointer/PointerTest.cpp.o
 
-.PHONY : exercise/MapTest.o
+.PHONY : exercise/pointer/PointerTest.o
 
 # target to build an object file
-exercise/MapTest.cpp.o:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/MapTest.cpp.o
-.PHONY : exercise/MapTest.cpp.o
+exercise/pointer/PointerTest.cpp.o:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/pointer/PointerTest.cpp.o
+.PHONY : exercise/pointer/PointerTest.cpp.o
 
-exercise/MapTest.i: exercise/MapTest.cpp.i
+exercise/pointer/PointerTest.i: exercise/pointer/PointerTest.cpp.i
 
-.PHONY : exercise/MapTest.i
+.PHONY : exercise/pointer/PointerTest.i
 
 # target to preprocess a source file
-exercise/MapTest.cpp.i:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/MapTest.cpp.i
-.PHONY : exercise/MapTest.cpp.i
+exercise/pointer/PointerTest.cpp.i:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/pointer/PointerTest.cpp.i
+.PHONY : exercise/pointer/PointerTest.cpp.i
 
-exercise/MapTest.s: exercise/MapTest.cpp.s
+exercise/pointer/PointerTest.s: exercise/pointer/PointerTest.cpp.s
 
-.PHONY : exercise/MapTest.s
+.PHONY : exercise/pointer/PointerTest.s
 
 # target to generate assembly for a file
-exercise/MapTest.cpp.s:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/MapTest.cpp.s
-.PHONY : exercise/MapTest.cpp.s
+exercise/pointer/PointerTest.cpp.s:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/pointer/PointerTest.cpp.s
+.PHONY : exercise/pointer/PointerTest.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Main"
-	@echo "... exercise/MapTest.o"
-	@echo "... exercise/MapTest.i"
-	@echo "... exercise/MapTest.s"
+	@echo "... exercise/pointer/PointerTest.o"
+	@echo "... exercise/pointer/PointerTest.i"
+	@echo "... exercise/pointer/PointerTest.s"
 .PHONY : help
 
 

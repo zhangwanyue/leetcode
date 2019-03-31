@@ -3,4 +3,4 @@ project(LeetCode)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Main exercise/MapTest.cpp)
+add_executable(Main exercise/pointer/PointerTest.cpp)
