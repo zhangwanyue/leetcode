@@ -89,5 +89,27 @@ int main(){
     vector<int> vector2 = {0,1,2,3};
     vector<int> vector3 = {0,1,3};
     cout<< (vector1==vector2) << " " << (vector1>vector3) << endl;
+
+    //二维数组初始化大小
+    vector<vector<int>> vector4(5);
+    for(int i=0; i<5; i++){
+        vector4[i].reserve(10);
+    }
+    vector4[3][3]=10;
+    cout<<vector4[3][3]<<endl;
+
+    vector<vector<int> >vector5(10,vector<int>(5));//新建一个vector<int>，然后拷贝10个该元素给vector5
+    vector5[7][4]=10;
+    cout<<vector5[7][4]<<endl;
+
+    int temp[10];
+    temp[9]=10;
+    cout<<temp[9]<<endl;
+    cout<<*(temp+9)<<endl;
+
+    int* temp2 = new int[10];
+    temp2[9]=10;
+    cout<<temp2[9]<<endl;
+    cout<<*(temp2+9)<<endl;
 }
 
