@@ -37,4 +37,18 @@ int main(){
         cout<<"not find"<<endl;
     }
     cout<<map1.count("jude")<<endl;//返回匹配特定键的元素数量
+    //删除元素
+    map<int, std::string> c = {{1, "one"}, {2, "two"}, {3, "three"},
+                                    {4, "four"}, {5, "five"}, {6, "six"}};
+    for(auto it = c.begin(); it != c.end(); )
+        if(it->first % 2 == 1)
+            it = c.erase(it);//删除迭代器指向的元素（注意迭代器是如何更新的）
+        else
+            ++it;
+    for(auto& p : c)
+        cout << p.second << ' ';
+    cout<<endl;
+    c.erase(2);//删除key为２的元素
+    for(auto& p : c)
+        cout << p.second << ' ';
 }

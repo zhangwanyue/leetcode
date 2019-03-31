@@ -63,11 +63,19 @@ int main(){
     //容量
     cout<<"isEmpty: "<<myset1.empty()<<"size: "<<myset1.size()<<endl;
     //插入元素
-    myset1.insert(3);
+    myset1.insert(10);
     printSet(myset1);
     //擦除元素
-    myset1.erase(1);
+    myset1.erase(10);//删除值为10的元素
     printSet(myset1);
+    std::set<int> c = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    // erase all odd numbers from c
+    for(auto it = c.begin(); it != c.end(); )
+        if(*it % 2 == 1)
+            it = c.erase(it);//删除迭代器指向的元素
+        else
+            ++it;
+    printSet(c);
     //元素查找
     set<int>::iterator iterator3 = myset1.find(2);
     if(iterator3!=myset1.end()){

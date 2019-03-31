@@ -67,4 +67,17 @@ int main(){
     list<int> list4 = {0,1,2,3};
     list<int> list5 = {0,1,3};
     cout<< (list3==list4) << " " << (list3>list5)<<endl;
+    //删除元素
+    std::list<int> c{0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+    // Erase all even numbers (C++11 and later)
+    for (auto it = c.begin(); it != c.end(); ) {
+        if (*it % 2 == 0) {
+            it = c.erase(it);//删除迭代器指向的元素
+        } else {
+            ++it;
+        }
+    }
+    printList(c);
+    c.remove(1);//删除值为1的元素
+    printList(c);
 }

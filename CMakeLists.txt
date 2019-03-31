@@ -3,8 +3,4 @@ project(LeetCode)
 
 set(CMAKE_CXX_STANDARD 11)
 
-<<<<<<< HEAD
-add_executable(Main exercise/pointer/PointerTest.cpp)
-=======
-add_executable(Main exercise/VectorTest.cpp)
->>>>>>> ec719b29e840f7102f17f6b7471ebe82b3e2f130
+add_executable(Main exercise/test/LRU.cpp)
