@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/vera/CLionProjects/LeetCode/exercise/MapTest.cpp
+/home/vera/CLionProjects/leetcode/exercise/VectorTest.cpp
 iostream
 -
-map
+vector
 -
 
