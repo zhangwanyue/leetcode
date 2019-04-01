@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/Main.dir/OfferCoding/P55_ReplaceBlank.cpp.o  -o Main 
+/usr/bin/c++  -g   CMakeFiles/Main.dir/exercise/STL/VectorTest.cpp.o  -o Main 

@@ -123,32 +123,32 @@ Main/fast:
 	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/build
 .PHONY : Main/fast
 
-OfferCoding/P55_ReplaceBlank.o: OfferCoding/P55_ReplaceBlank.cpp.o
+exercise/STL/VectorTest.o: exercise/STL/VectorTest.cpp.o
 
-.PHONY : OfferCoding/P55_ReplaceBlank.o
+.PHONY : exercise/STL/VectorTest.o
 
 # target to build an object file
-OfferCoding/P55_ReplaceBlank.cpp.o:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/OfferCoding/P55_ReplaceBlank.cpp.o
-.PHONY : OfferCoding/P55_ReplaceBlank.cpp.o
+exercise/STL/VectorTest.cpp.o:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/STL/VectorTest.cpp.o
+.PHONY : exercise/STL/VectorTest.cpp.o
 
-OfferCoding/P55_ReplaceBlank.i: OfferCoding/P55_ReplaceBlank.cpp.i
+exercise/STL/VectorTest.i: exercise/STL/VectorTest.cpp.i
 
-.PHONY : OfferCoding/P55_ReplaceBlank.i
+.PHONY : exercise/STL/VectorTest.i
 
 # target to preprocess a source file
-OfferCoding/P55_ReplaceBlank.cpp.i:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/OfferCoding/P55_ReplaceBlank.cpp.i
-.PHONY : OfferCoding/P55_ReplaceBlank.cpp.i
+exercise/STL/VectorTest.cpp.i:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/STL/VectorTest.cpp.i
+.PHONY : exercise/STL/VectorTest.cpp.i
 
-OfferCoding/P55_ReplaceBlank.s: OfferCoding/P55_ReplaceBlank.cpp.s
+exercise/STL/VectorTest.s: exercise/STL/VectorTest.cpp.s
 
-.PHONY : OfferCoding/P55_ReplaceBlank.s
+.PHONY : exercise/STL/VectorTest.s
 
 # target to generate assembly for a file
-OfferCoding/P55_ReplaceBlank.cpp.s:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/OfferCoding/P55_ReplaceBlank.cpp.s
-.PHONY : OfferCoding/P55_ReplaceBlank.cpp.s
+exercise/STL/VectorTest.cpp.s:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/STL/VectorTest.cpp.s
+.PHONY : exercise/STL/VectorTest.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Main"
-	@echo "... OfferCoding/P55_ReplaceBlank.o"
-	@echo "... OfferCoding/P55_ReplaceBlank.i"
-	@echo "... OfferCoding/P55_ReplaceBlank.s"
+	@echo "... exercise/STL/VectorTest.o"
+	@echo "... exercise/STL/VectorTest.i"
+	@echo "... exercise/STL/VectorTest.s"
 .PHONY : help
 
 
