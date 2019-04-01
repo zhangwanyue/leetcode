@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/vera/CLionProjects/leetcode-cpp/exercise/STL/VectorTest.cpp" "/home/vera/CLionProjects/leetcode-cpp/CMakeFiles/Main.dir/exercise/STL/VectorTest.cpp.o"
+  "/home/vera/CLionProjects/leetcode-cpp/OfferCoding/p55_ReplaceBlank.cpp" "/home/vera/CLionProjects/leetcode-cpp/CMakeFiles/Main.dir/OfferCoding/p55_ReplaceBlank.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -2,6 +2,8 @@
 // Created by vera on 19-4-1.
 //
 #include <iostream>
+#include <cstring>
+
 using namespace std;
 
 class Solution {
@@ -21,13 +23,13 @@ public:
         if(length<newLength)
             return;
 
-        for(int indexOfOrigin=originalLength, indexOfNew=newLength; originalLength>0; originalLength--){
+        for(int indexOfOrigin=originalLength, indexOfNew=newLength; indexOfOrigin>=0; indexOfOrigin--){
             if(str[indexOfOrigin]==' '){
                 str[indexOfNew--]='0';
                 str[indexOfNew--]='2';
                 str[indexOfNew--]='%';
             }else{
-                str[indexOfNew--]=str[originalLength];
+                str[indexOfNew--]=str[indexOfOrigin];
             }
         }
     }
@@ -35,8 +37,8 @@ public:
 
 int main(){
     char* str = new char[100];
-    str = "We are happy";
-//    (new Solution)->replaceSpace(str, 100);
+    strcpy(str, "We are happy");
+    (new Solution)->replaceSpace(str, 100);
     for(int i=0; str[i]!='\0'; i++){
         cout<<str[i];
     }

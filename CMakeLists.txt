@@ -5,4 +5,4 @@ project(LeetCode)
 
 set(CMAKE_BUILD_TYPE Debug)
 
-add_executable(Main exercise/STL/VectorTest.cpp)
+add_executable(Main OfferCoding/p55_ReplaceBlank.cpp)
