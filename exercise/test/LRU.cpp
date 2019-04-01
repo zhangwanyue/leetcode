@@ -29,9 +29,7 @@ public:
     LRUCache(int capacity){
         this->capacity = capacity;
         this->head = new ListNode(0, 0);
-        this->head->next=this->end;
-        this->end = nullptr;
-        this->end->pre = this->head;
+        this->end = this->head;
         size = 0;
     }
 
@@ -39,13 +37,22 @@ public:
         listNode->next = head->next;
         listNode->pre = head;
         head->next = listNode;
+        if(listNode->next!= nullptr){
+            listNode->next->pre=listNode;
+        }else{
+            end = listNode;//如果插入的是第一个元素，修改end
+        }
     }
 
     void removeNode(ListNode* listNode){
         ListNode* pre = listNode->pre;
         ListNode* next = listNode->next;
         pre->next = next;
-        next->pre = pre;
+        if(next != nullptr){
+            next->pre = pre;
+        }else{
+            end = listNode->pre;//如果删除的是最后一个元素，修改end
+        }
     }
 
     void set(int key, int value){
@@ -59,11 +66,13 @@ public:
             ListNode* listNode = new ListNode(key, value);
             insertIntoHead(listNode);
             size++;
+            lruMap.insert({key, listNode});
             if(size>capacity){
                 ListNode* oldEnd = end;
                 end = end->pre;
                 removeNode(oldEnd);
                 size--;
+                lruMap.erase(lruMap.find(oldEnd->key));
             }
         }
     }

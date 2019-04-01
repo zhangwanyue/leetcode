@@ -9,6 +9,7 @@
 # user files
 /cmake-build-debug
 /debug
+/test
 
 *_false.cpp
 *_bad.cpp

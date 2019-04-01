@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Main.dir/OfferCoding/p55_ReplaceBlank.cpp.o"
+  "CMakeFiles/Main.dir/exercise/test/LRU.cpp.o"
   "Main.pdb"
   "Main"
 )
