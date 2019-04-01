@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/vera/CLionProjects/LeetCode/exercise/test/LRU.cpp
+/home/vera/CLionProjects/leetcode-cpp/OfferCoding/P55_ReplaceBlank.cpp
 iostream
--
-unordered_map
 -
 

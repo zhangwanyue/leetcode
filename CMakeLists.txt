@@ -3,4 +3,4 @@ project(LeetCode)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Main exercise/test/LRU.cpp)
+add_executable(Main OfferCoding/P55_ReplaceBlank.cpp)
