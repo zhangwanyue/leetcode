@@ -123,32 +123,32 @@ Main/fast:
 	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/build
 .PHONY : Main/fast
 
-exercise/test/LRU.o: exercise/test/LRU.cpp.o
+exercise/test/LRU2.o: exercise/test/LRU2.cpp.o
 
-.PHONY : exercise/test/LRU.o
+.PHONY : exercise/test/LRU2.o
 
 # target to build an object file
-exercise/test/LRU.cpp.o:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/test/LRU.cpp.o
-.PHONY : exercise/test/LRU.cpp.o
+exercise/test/LRU2.cpp.o:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/test/LRU2.cpp.o
+.PHONY : exercise/test/LRU2.cpp.o
 
-exercise/test/LRU.i: exercise/test/LRU.cpp.i
+exercise/test/LRU2.i: exercise/test/LRU2.cpp.i
 
-.PHONY : exercise/test/LRU.i
+.PHONY : exercise/test/LRU2.i
 
 # target to preprocess a source file
-exercise/test/LRU.cpp.i:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/test/LRU.cpp.i
-.PHONY : exercise/test/LRU.cpp.i
+exercise/test/LRU2.cpp.i:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/test/LRU2.cpp.i
+.PHONY : exercise/test/LRU2.cpp.i
 
-exercise/test/LRU.s: exercise/test/LRU.cpp.s
+exercise/test/LRU2.s: exercise/test/LRU2.cpp.s
 
-.PHONY : exercise/test/LRU.s
+.PHONY : exercise/test/LRU2.s
 
 # target to generate assembly for a file
-exercise/test/LRU.cpp.s:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/test/LRU.cpp.s
-.PHONY : exercise/test/LRU.cpp.s
+exercise/test/LRU2.cpp.s:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/test/LRU2.cpp.s
+.PHONY : exercise/test/LRU2.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Main"
-	@echo "... exercise/test/LRU.o"
-	@echo "... exercise/test/LRU.i"
-	@echo "... exercise/test/LRU.s"
+	@echo "... exercise/test/LRU2.o"
+	@echo "... exercise/test/LRU2.i"
+	@echo "... exercise/test/LRU2.s"
 .PHONY : help
 
 

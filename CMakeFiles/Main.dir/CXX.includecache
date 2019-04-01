@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/vera/CLionProjects/LeetCode/exercise/test/LRU.cpp
+/home/vera/CLionProjects/LeetCode/exercise/test/LRU2.cpp
 iostream
 -
 unordered_map
+-
+list
 -
 

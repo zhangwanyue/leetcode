@@ -57,38 +57,38 @@ include CMakeFiles/Main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Main.dir/flags.make
 
-CMakeFiles/Main.dir/exercise/test/LRU.cpp.o: CMakeFiles/Main.dir/flags.make
-CMakeFiles/Main.dir/exercise/test/LRU.cpp.o: exercise/test/LRU.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vera/CLionProjects/LeetCode/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Main.dir/exercise/test/LRU.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main.dir/exercise/test/LRU.cpp.o -c /home/vera/CLionProjects/LeetCode/exercise/test/LRU.cpp
+CMakeFiles/Main.dir/exercise/test/LRU2.cpp.o: CMakeFiles/Main.dir/flags.make
+CMakeFiles/Main.dir/exercise/test/LRU2.cpp.o: exercise/test/LRU2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vera/CLionProjects/LeetCode/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Main.dir/exercise/test/LRU2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main.dir/exercise/test/LRU2.cpp.o -c /home/vera/CLionProjects/LeetCode/exercise/test/LRU2.cpp
 
-CMakeFiles/Main.dir/exercise/test/LRU.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Main.dir/exercise/test/LRU.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vera/CLionProjects/LeetCode/exercise/test/LRU.cpp > CMakeFiles/Main.dir/exercise/test/LRU.cpp.i
+CMakeFiles/Main.dir/exercise/test/LRU2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Main.dir/exercise/test/LRU2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vera/CLionProjects/LeetCode/exercise/test/LRU2.cpp > CMakeFiles/Main.dir/exercise/test/LRU2.cpp.i
 
-CMakeFiles/Main.dir/exercise/test/LRU.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Main.dir/exercise/test/LRU.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vera/CLionProjects/LeetCode/exercise/test/LRU.cpp -o CMakeFiles/Main.dir/exercise/test/LRU.cpp.s
+CMakeFiles/Main.dir/exercise/test/LRU2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Main.dir/exercise/test/LRU2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vera/CLionProjects/LeetCode/exercise/test/LRU2.cpp -o CMakeFiles/Main.dir/exercise/test/LRU2.cpp.s
 
-CMakeFiles/Main.dir/exercise/test/LRU.cpp.o.requires:
+CMakeFiles/Main.dir/exercise/test/LRU2.cpp.o.requires:
 
-.PHONY : CMakeFiles/Main.dir/exercise/test/LRU.cpp.o.requires
+.PHONY : CMakeFiles/Main.dir/exercise/test/LRU2.cpp.o.requires
 
-CMakeFiles/Main.dir/exercise/test/LRU.cpp.o.provides: CMakeFiles/Main.dir/exercise/test/LRU.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/test/LRU.cpp.o.provides.build
-.PHONY : CMakeFiles/Main.dir/exercise/test/LRU.cpp.o.provides
+CMakeFiles/Main.dir/exercise/test/LRU2.cpp.o.provides: CMakeFiles/Main.dir/exercise/test/LRU2.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/test/LRU2.cpp.o.provides.build
+.PHONY : CMakeFiles/Main.dir/exercise/test/LRU2.cpp.o.provides
 
-CMakeFiles/Main.dir/exercise/test/LRU.cpp.o.provides.build: CMakeFiles/Main.dir/exercise/test/LRU.cpp.o
+CMakeFiles/Main.dir/exercise/test/LRU2.cpp.o.provides.build: CMakeFiles/Main.dir/exercise/test/LRU2.cpp.o
 
 
 # Object files for target Main
 Main_OBJECTS = \
-"CMakeFiles/Main.dir/exercise/test/LRU.cpp.o"
+"CMakeFiles/Main.dir/exercise/test/LRU2.cpp.o"
 
 # External object files for target Main
 Main_EXTERNAL_OBJECTS =
 
-Main: CMakeFiles/Main.dir/exercise/test/LRU.cpp.o
+Main: CMakeFiles/Main.dir/exercise/test/LRU2.cpp.o
 Main: CMakeFiles/Main.dir/build.make
 Main: CMakeFiles/Main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vera/CLionProjects/LeetCode/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Main"
@@ -99,7 +99,7 @@ CMakeFiles/Main.dir/build: Main
 
 .PHONY : CMakeFiles/Main.dir/build
 
-CMakeFiles/Main.dir/requires: CMakeFiles/Main.dir/exercise/test/LRU.cpp.o.requires
+CMakeFiles/Main.dir/requires: CMakeFiles/Main.dir/exercise/test/LRU2.cpp.o.requires
 
 .PHONY : CMakeFiles/Main.dir/requires
 
