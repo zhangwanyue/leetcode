@@ -7,7 +7,6 @@
 *.iml
 
 # user files
-exercise/test/
 /cmake-build-debug
 /debug
 
