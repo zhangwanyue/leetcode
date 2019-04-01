@@ -1,7 +1,6 @@
 //
 // Created by vera on 19-4-1.
 //
-
 #include <iostream>
 #include <unordered_map>
 #include <list>
@@ -49,25 +48,24 @@ public:
         if(lruMapIter != lruMap.end()) {
             list<Node>::iterator lruListIter = lruMapIter->second;
             lruList.erase(lruListIter);
-            lruListIter->value=value;
-            lruList.push_front(*lruListIter);
-        }else{
-            Node node = Node(key, value);
-            lruList.push_front(node);
-            lruMap.insert({key, lruList.begin()});
-            size++;
-            if(size>capacity){
-                lruMap.erase(lruList.end()->key);
-                lruList.erase(lruList.end());
-                size--;
-            }
+            lruMap.erase(lruListIter->key);
+            size--;
+        }
+        Node node = Node(key, value);
+        lruList.push_front(node);
+        lruMap.insert({key, lruList.begin()});
+        size++;
+        if(size>capacity){
+            lruMap.erase(lruList.end()->key);
+            lruList.erase(lruList.end());
+            size--;
         }
     }
 };
 
 void printList(list<Node> nodeList){
-    for(Node node : nodeList){
-        cout<<node.key<<" "<<node.value<<endl;
+    for(list<Node>::iterator iter = nodeList.begin(); iter!=nodeList.end();iter++){
+        cout<<iter->key<<" "<<iter->value<<endl;
     }
 }
 
