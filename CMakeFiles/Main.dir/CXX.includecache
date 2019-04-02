@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/vera/CLionProjects/LeetCode/exercise/test/LRU2.cpp
+/home/vera/CLionProjects/leetcode-cpp/exercise/test/LRU2.cpp
 iostream
 -
 unordered_map

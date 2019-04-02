@@ -24,6 +24,11 @@ int main(){
     //元素访问
     cout<<list1.front()<<" "<<list1.back()<<endl;
     //迭代器
+    for(list<int>::iterator iterator1 = list1.begin(); iterator1 != list1.end(); iterator1++){
+        cout<<(*iterator1)<<" ";
+    }
+    cout<<endl;
+
     for(list<list<int>>::iterator iterator1 = list2.begin(); iterator1 != list2.end(); iterator1++){
         for(list<int>::iterator iterator2 = (*iterator1).begin(); iterator2 != (*iterator1).end(); iterator2++)
             cout<<(*iterator2)<<" ";
