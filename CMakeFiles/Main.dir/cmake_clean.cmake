@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Main.dir/exercise/test/LRU2.cpp.o"
+  "CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.o"
   "Main.pdb"
   "Main"
 )

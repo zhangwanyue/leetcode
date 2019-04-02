@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/vera/CLionProjects/leetcode-cpp/exercise/test/LRU2.cpp" "/home/vera/CLionProjects/leetcode-cpp/CMakeFiles/Main.dir/exercise/test/LRU2.cpp.o"
+  "/home/vera/CLionProjects/LeetCode/OfferCoding/p63_ReConstructBinaryTree.cpp" "/home/vera/CLionProjects/LeetCode/CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
