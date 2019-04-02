@@ -17,15 +17,12 @@ struct Node{
 
 class LRUCache {
 private:
-
-
-public:
     list<Node> lruList;
     unordered_map<int, list<Node>::iterator> lruMap;
     int capacity;
     int size;
 
-
+public:
     LRUCache(int capacity){
         this->capacity = capacity;
         size = 0;
