@@ -1,15 +1,16 @@
 //
-// Created by vera on 19-3-30.
+// Created by vera on 19-4-2.
 //
 #include <iostream>
 #include <stack>
+#include <vector>
+
 using namespace std;
 
 struct ListNode{
     int value;
     ListNode* next;
 };
-
 //向链表末尾插入一个节点
 void AddToTail(ListNode** pHead, int value){
     ListNode* pNew = new ListNode();
@@ -24,40 +25,6 @@ void AddToTail(ListNode** pHead, int value){
         }
         pNode->next = pNew;
     }
-}
-
-//删除链表中的节点
-void RemoveNode(ListNode** pHead, int value){
-    if(pHead == nullptr || *pHead == nullptr){
-        return;
-    }
-    ListNode* pToDeleted = nullptr;
-    if((*pHead)->value == value){//如果要刪除的是头结点
-        pToDeleted = *pHead;
-        *pHead = (*pHead)->next;
-    }else{
-        ListNode* pNode = *pHead;
-        while(pNode->next!=nullptr && pNode->next->value!=value){
-            pNode = pNode->next;
-        }
-        if(pNode->next != nullptr && pNode->next->value==value){
-            pToDeleted = pNode->next;
-            pNode->next = pNode->next->next;
-        }
-    }
-    if(pToDeleted != nullptr){
-        delete  pToDeleted;
-        pToDeleted = nullptr;
-    }
-}
-
-void printList(ListNode* pHead){
-    ListNode* pCurrent = pHead;
-    while(pCurrent!= nullptr){
-        cout<<pCurrent->value<<" ";
-        pCurrent = pCurrent->next;
-    }
-    cout<<endl;
 }
 
 //倒序输出链表:使用栈
@@ -76,6 +43,23 @@ void PrintListReversingly_stack(ListNode* pHead){
     cout<<endl;
 }
 
+
+vector<int> printListFromTailToHead(ListNode* head) {
+    stack<int> nodeStack;
+    vector<int> nodeVec;
+    ListNode* pCurrent = head;
+    while(pCurrent != nullptr){
+        nodeStack.push(pCurrent->value);
+        pCurrent = pCurrent->next;
+    }
+    while(!nodeStack.empty()){
+        int value = nodeStack.top();
+        nodeStack.pop();
+        nodeVec.push_back(value);
+    }
+    return nodeVec;
+}
+
 //倒序输出链表:使用递归
 void PrintListReversingly_Recursively(ListNode* pHead){
     if(pHead!=nullptr){
@@ -91,9 +75,4 @@ int main(){
 
     PrintListReversingly_Recursively(pHead);
     cout<<endl;
-    printList(pHead);
-
-    RemoveNode(&pHead, 10);
-    printList(pHead);
-
 }
