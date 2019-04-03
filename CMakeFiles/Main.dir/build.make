@@ -57,38 +57,38 @@ include CMakeFiles/Main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Main.dir/flags.make
 
-CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.o: CMakeFiles/Main.dir/flags.make
-CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.o: OfferCoding/p63_ReConstructBinaryTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vera/CLionProjects/LeetCode/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.o -c /home/vera/CLionProjects/LeetCode/OfferCoding/p63_ReConstructBinaryTree.cpp
+CMakeFiles/Main.dir/OfferCoding/p69_StackQueue.cpp.o: CMakeFiles/Main.dir/flags.make
+CMakeFiles/Main.dir/OfferCoding/p69_StackQueue.cpp.o: OfferCoding/p69_StackQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vera/CLionProjects/LeetCode/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Main.dir/OfferCoding/p69_StackQueue.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main.dir/OfferCoding/p69_StackQueue.cpp.o -c /home/vera/CLionProjects/LeetCode/OfferCoding/p69_StackQueue.cpp
 
-CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vera/CLionProjects/LeetCode/OfferCoding/p63_ReConstructBinaryTree.cpp > CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.i
+CMakeFiles/Main.dir/OfferCoding/p69_StackQueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Main.dir/OfferCoding/p69_StackQueue.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vera/CLionProjects/LeetCode/OfferCoding/p69_StackQueue.cpp > CMakeFiles/Main.dir/OfferCoding/p69_StackQueue.cpp.i
 
-CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vera/CLionProjects/LeetCode/OfferCoding/p63_ReConstructBinaryTree.cpp -o CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.s
+CMakeFiles/Main.dir/OfferCoding/p69_StackQueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Main.dir/OfferCoding/p69_StackQueue.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vera/CLionProjects/LeetCode/OfferCoding/p69_StackQueue.cpp -o CMakeFiles/Main.dir/OfferCoding/p69_StackQueue.cpp.s
 
-CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.o.requires:
+CMakeFiles/Main.dir/OfferCoding/p69_StackQueue.cpp.o.requires:
 
-.PHONY : CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.o.requires
+.PHONY : CMakeFiles/Main.dir/OfferCoding/p69_StackQueue.cpp.o.requires
 
-CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.o.provides: CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.o.provides.build
-.PHONY : CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.o.provides
+CMakeFiles/Main.dir/OfferCoding/p69_StackQueue.cpp.o.provides: CMakeFiles/Main.dir/OfferCoding/p69_StackQueue.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/OfferCoding/p69_StackQueue.cpp.o.provides.build
+.PHONY : CMakeFiles/Main.dir/OfferCoding/p69_StackQueue.cpp.o.provides
 
-CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.o.provides.build: CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.o
+CMakeFiles/Main.dir/OfferCoding/p69_StackQueue.cpp.o.provides.build: CMakeFiles/Main.dir/OfferCoding/p69_StackQueue.cpp.o
 
 
 # Object files for target Main
 Main_OBJECTS = \
-"CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.o"
+"CMakeFiles/Main.dir/OfferCoding/p69_StackQueue.cpp.o"
 
 # External object files for target Main
 Main_EXTERNAL_OBJECTS =
 
-Main: CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.o
+Main: CMakeFiles/Main.dir/OfferCoding/p69_StackQueue.cpp.o
 Main: CMakeFiles/Main.dir/build.make
 Main: CMakeFiles/Main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vera/CLionProjects/LeetCode/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Main"
@@ -99,7 +99,7 @@ CMakeFiles/Main.dir/build: Main
 
 .PHONY : CMakeFiles/Main.dir/build
 
-CMakeFiles/Main.dir/requires: CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.o.requires
+CMakeFiles/Main.dir/requires: CMakeFiles/Main.dir/OfferCoding/p69_StackQueue.cpp.o.requires
 
 .PHONY : CMakeFiles/Main.dir/requires
 

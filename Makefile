@@ -123,32 +123,32 @@ Main/fast:
 	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/build
 .PHONY : Main/fast
 
-OfferCoding/p63_ReConstructBinaryTree.o: OfferCoding/p63_ReConstructBinaryTree.cpp.o
+OfferCoding/p69_StackQueue.o: OfferCoding/p69_StackQueue.cpp.o
 
-.PHONY : OfferCoding/p63_ReConstructBinaryTree.o
+.PHONY : OfferCoding/p69_StackQueue.o
 
 # target to build an object file
-OfferCoding/p63_ReConstructBinaryTree.cpp.o:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.o
-.PHONY : OfferCoding/p63_ReConstructBinaryTree.cpp.o
+OfferCoding/p69_StackQueue.cpp.o:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/OfferCoding/p69_StackQueue.cpp.o
+.PHONY : OfferCoding/p69_StackQueue.cpp.o
 
-OfferCoding/p63_ReConstructBinaryTree.i: OfferCoding/p63_ReConstructBinaryTree.cpp.i
+OfferCoding/p69_StackQueue.i: OfferCoding/p69_StackQueue.cpp.i
 
-.PHONY : OfferCoding/p63_ReConstructBinaryTree.i
+.PHONY : OfferCoding/p69_StackQueue.i
 
 # target to preprocess a source file
-OfferCoding/p63_ReConstructBinaryTree.cpp.i:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.i
-.PHONY : OfferCoding/p63_ReConstructBinaryTree.cpp.i
+OfferCoding/p69_StackQueue.cpp.i:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/OfferCoding/p69_StackQueue.cpp.i
+.PHONY : OfferCoding/p69_StackQueue.cpp.i
 
-OfferCoding/p63_ReConstructBinaryTree.s: OfferCoding/p63_ReConstructBinaryTree.cpp.s
+OfferCoding/p69_StackQueue.s: OfferCoding/p69_StackQueue.cpp.s
 
-.PHONY : OfferCoding/p63_ReConstructBinaryTree.s
+.PHONY : OfferCoding/p69_StackQueue.s
 
 # target to generate assembly for a file
-OfferCoding/p63_ReConstructBinaryTree.cpp.s:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.s
-.PHONY : OfferCoding/p63_ReConstructBinaryTree.cpp.s
+OfferCoding/p69_StackQueue.cpp.s:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/OfferCoding/p69_StackQueue.cpp.s
+.PHONY : OfferCoding/p69_StackQueue.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Main"
-	@echo "... OfferCoding/p63_ReConstructBinaryTree.o"
-	@echo "... OfferCoding/p63_ReConstructBinaryTree.i"
-	@echo "... OfferCoding/p63_ReConstructBinaryTree.s"
+	@echo "... OfferCoding/p69_StackQueue.o"
+	@echo "... OfferCoding/p69_StackQueue.i"
+	@echo "... OfferCoding/p69_StackQueue.s"
 .PHONY : help
 
 

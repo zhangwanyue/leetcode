@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/vera/CLionProjects/LeetCode/OfferCoding/p63_ReConstructBinaryTree.cpp
+/home/vera/CLionProjects/LeetCode/OfferCoding/p69_StackQueue.cpp
 iostream
 -
-queue
--
-list
+stack
 -
 

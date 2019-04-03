@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.o  -o Main 
+/usr/bin/c++  -g   CMakeFiles/Main.dir/OfferCoding/p69_StackQueue.cpp.o  -o Main 

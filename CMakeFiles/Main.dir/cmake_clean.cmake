@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.o"
+  "CMakeFiles/Main.dir/OfferCoding/p69_StackQueue.cpp.o"
   "Main.pdb"
   "Main"
 )
