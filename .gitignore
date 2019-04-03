@@ -11,12 +11,11 @@
 /debug
 /test
 /CMakeFiles
-
-*_false.cpp
-*_bad.cpp
-
 cmake_install.cmake
 Makefile
 Main
 LeetCode.cbp
 CMakeCache.txt
+
+*_false.cpp
+*_bad.cpp
