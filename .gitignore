@@ -10,7 +10,7 @@
 /cmake-build-debug
 /debug
 /test
-/CMakeFiles
+# /CMakeFiles
 
 *_false.cpp
 *_bad.cpp

@@ -8,86 +8,90 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/vera/CLionProjects/leetcode-cpp"/>
+				<Option working_dir="/home/vera/CLionProjects/LeetCode"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/vera/CLionProjects/leetcode-cpp/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vera/CLionProjects/leetcode-cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/vera/CLionProjects/leetcode-cpp/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vera/CLionProjects/leetcode-cpp/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/vera/CLionProjects/leetcode-cpp"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/vera/CLionProjects/leetcode-cpp/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vera/CLionProjects/leetcode-cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/vera/CLionProjects/leetcode-cpp/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vera/CLionProjects/leetcode-cpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/local/bin/make -j8 -f &quot;/home/vera/CLionProjects/LeetCode/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/bin/make -j8 -f &quot;/home/vera/CLionProjects/LeetCode/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -j8 -f &quot;/home/vera/CLionProjects/LeetCode/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -j8 -f &quot;/home/vera/CLionProjects/LeetCode/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/vera/CLionProjects/leetcode-cpp"/>
+				<Option working_dir="/home/vera/CLionProjects/LeetCode"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/vera/CLionProjects/leetcode-cpp/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vera/CLionProjects/leetcode-cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/vera/CLionProjects/leetcode-cpp/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vera/CLionProjects/leetcode-cpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/local/bin/make -j8 -f &quot;/home/vera/CLionProjects/LeetCode/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/make -j8 -f &quot;/home/vera/CLionProjects/LeetCode/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -j8 -f &quot;/home/vera/CLionProjects/LeetCode/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -j8 -f &quot;/home/vera/CLionProjects/LeetCode/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/vera/CLionProjects/LeetCode"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -j8 -f &quot;/home/vera/CLionProjects/LeetCode/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/bin/make -j8 -f &quot;/home/vera/CLionProjects/LeetCode/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -j8 -f &quot;/home/vera/CLionProjects/LeetCode/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -j8 -f &quot;/home/vera/CLionProjects/LeetCode/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Main">
-				<Option output="/home/vera/CLionProjects/leetcode-cpp/Main" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vera/CLionProjects/leetcode-cpp"/>
+				<Option output="/home/vera/CLionProjects/LeetCode/Main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vera/CLionProjects/LeetCode"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/vera/CLionProjects/leetcode-cpp/Makefile&quot;  VERBOSE=1 Main"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vera/CLionProjects/leetcode-cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/vera/CLionProjects/leetcode-cpp/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vera/CLionProjects/leetcode-cpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/local/bin/make -j8 -f &quot;/home/vera/CLionProjects/LeetCode/Makefile&quot;  VERBOSE=1 Main"/>
+					<CompileFile command="/usr/local/bin/make -j8 -f &quot;/home/vera/CLionProjects/LeetCode/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -j8 -f &quot;/home/vera/CLionProjects/LeetCode/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -j8 -f &quot;/home/vera/CLionProjects/LeetCode/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Main/fast">
-				<Option output="/home/vera/CLionProjects/leetcode-cpp/Main" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vera/CLionProjects/leetcode-cpp"/>
+				<Option output="/home/vera/CLionProjects/LeetCode/Main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vera/CLionProjects/LeetCode"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/vera/CLionProjects/leetcode-cpp/Makefile&quot;  VERBOSE=1 Main/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/vera/CLionProjects/leetcode-cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/vera/CLionProjects/leetcode-cpp/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/vera/CLionProjects/leetcode-cpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/local/bin/make -j8 -f &quot;/home/vera/CLionProjects/LeetCode/Makefile&quot;  VERBOSE=1 Main/fast"/>
+					<CompileFile command="/usr/local/bin/make -j8 -f &quot;/home/vera/CLionProjects/LeetCode/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -j8 -f &quot;/home/vera/CLionProjects/LeetCode/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -j8 -f &quot;/home/vera/CLionProjects/LeetCode/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
+<<<<<<< HEAD
 		<Unit filename="/home/vera/CLionProjects/leetcode-cpp/exercise/test/IterTest.cpp">
+=======
+		<Unit filename="/home/vera/CLionProjects/LeetCode/OfferCoding/p63_ReConstructBinaryTree.cpp">
+>>>>>>> 58efa685246b0f734e84503459634bef5813f19f
 			<Option target="Main"/>
 		</Unit>
-		<Unit filename="/home/vera/CLionProjects/leetcode-cpp/CMakeLists.txt">
+		<Unit filename="/home/vera/CLionProjects/LeetCode/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

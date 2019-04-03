@@ -1,0 +1,7 @@
+/usr/local/bin/clion-2018.1.6/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE= -G "CodeBlocks - Unix Makefiles" /home/vera/CLionProjects/leetcode-cpp
+CMake Error at CMakeLists.txt:7:
+  Parse error.  Expected a command name, got unquoted argument with text
+  "<<<<<<<".
+
+
+-- Configuring incomplete, errors occurred!
