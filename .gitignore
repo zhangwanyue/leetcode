@@ -15,6 +15,7 @@
 *_false.cpp
 *_bad.cpp
 
+cmake_install.cmake
 Makefile
 Main
 LeetCode.cbp
