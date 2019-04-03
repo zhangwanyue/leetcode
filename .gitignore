@@ -10,6 +10,12 @@
 /cmake-build-debug
 /debug
 /test
+/CMakeFiles
 
 *_false.cpp
 *_bad.cpp
+
+Makefile
+Main
+LeetCode.cbp
+CMakeCache.txt

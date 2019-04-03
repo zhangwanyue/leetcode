@@ -4,4 +4,5 @@ project(LeetCode)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_BUILD_TYPE Debug)
 
-add_executable(Main OfferCoding/p69_StackQueue.cpp)
+add_executable(Main OfferCoding/p63_ReConstructBinaryTree.cpp)
+
