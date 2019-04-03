@@ -123,32 +123,32 @@ Main/fast:
 	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/build
 .PHONY : Main/fast
 
-exercise/test/LRU2.o: exercise/test/LRU2.cpp.o
+exercise/test/IterTest.o: exercise/test/IterTest.cpp.o
 
-.PHONY : exercise/test/LRU2.o
+.PHONY : exercise/test/IterTest.o
 
 # target to build an object file
-exercise/test/LRU2.cpp.o:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/test/LRU2.cpp.o
-.PHONY : exercise/test/LRU2.cpp.o
+exercise/test/IterTest.cpp.o:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/test/IterTest.cpp.o
+.PHONY : exercise/test/IterTest.cpp.o
 
-exercise/test/LRU2.i: exercise/test/LRU2.cpp.i
+exercise/test/IterTest.i: exercise/test/IterTest.cpp.i
 
-.PHONY : exercise/test/LRU2.i
+.PHONY : exercise/test/IterTest.i
 
 # target to preprocess a source file
-exercise/test/LRU2.cpp.i:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/test/LRU2.cpp.i
-.PHONY : exercise/test/LRU2.cpp.i
+exercise/test/IterTest.cpp.i:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/test/IterTest.cpp.i
+.PHONY : exercise/test/IterTest.cpp.i
 
-exercise/test/LRU2.s: exercise/test/LRU2.cpp.s
+exercise/test/IterTest.s: exercise/test/IterTest.cpp.s
 
-.PHONY : exercise/test/LRU2.s
+.PHONY : exercise/test/IterTest.s
 
 # target to generate assembly for a file
-exercise/test/LRU2.cpp.s:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/test/LRU2.cpp.s
-.PHONY : exercise/test/LRU2.cpp.s
+exercise/test/IterTest.cpp.s:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/test/IterTest.cpp.s
+.PHONY : exercise/test/IterTest.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Main"
-	@echo "... exercise/test/LRU2.o"
-	@echo "... exercise/test/LRU2.i"
-	@echo "... exercise/test/LRU2.s"
+	@echo "... exercise/test/IterTest.o"
+	@echo "... exercise/test/IterTest.i"
+	@echo "... exercise/test/IterTest.s"
 .PHONY : help
 
 
