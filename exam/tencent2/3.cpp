@@ -8,13 +8,13 @@
 
 using namespace std;
 
-int findMax(vector<int> vec) {
-    int max = -1;
-    for (auto v : vec) {
-        if (max < v) max = v;
-    }
-    return max;
-}
+//int findMax(vector<int> vec) {
+//    int max = -1;
+//    for (auto v : vec) {
+//        if (max < v) max = v;
+//    }
+//    return max;
+//}
 
 int minMoney(int i, int nowPower, int nowMoney, vector<int>& power, vector<int>& money, bool flag){
     if(i>=power.size()){
@@ -46,10 +46,10 @@ int main() {
         cin >> tmp;
         money.push_back(tmp);
     }
-    int maxPower = findMax(power);
-    int sumMoney = 0;
-    int sumPower = 0;
-    int nowPower = 0;
+//    int maxPower = findMax(power);
+//    int sumMoney = 0;
+//    int sumPower = 0;
+//    int nowPower = 0;
 
 
     cout<<minMoney(0, 0, 0, power, money, true);
