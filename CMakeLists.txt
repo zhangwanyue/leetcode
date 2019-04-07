@@ -4,7 +4,4 @@ project(LeetCode)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_BUILD_TYPE Debug)
 
-add_executable(Main OfferCoding/p63_ReConstructBinaryTree.cpp)
-
-add_executable(Main exercise/list/ListNode.cpp)
-
+add_executable(Main exercise/test/localStatic.cpp)
