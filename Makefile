@@ -123,32 +123,32 @@ Main/fast:
 	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/build
 .PHONY : Main/fast
 
-OfferCoding/p63_ReConstructBinaryTree.o: OfferCoding/p63_ReConstructBinaryTree.cpp.o
+exercise/binarySearch/LastSmaller.o: exercise/binarySearch/LastSmaller.cpp.o
 
-.PHONY : OfferCoding/p63_ReConstructBinaryTree.o
+.PHONY : exercise/binarySearch/LastSmaller.o
 
 # target to build an object file
-OfferCoding/p63_ReConstructBinaryTree.cpp.o:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.o
-.PHONY : OfferCoding/p63_ReConstructBinaryTree.cpp.o
+exercise/binarySearch/LastSmaller.cpp.o:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/binarySearch/LastSmaller.cpp.o
+.PHONY : exercise/binarySearch/LastSmaller.cpp.o
 
-OfferCoding/p63_ReConstructBinaryTree.i: OfferCoding/p63_ReConstructBinaryTree.cpp.i
+exercise/binarySearch/LastSmaller.i: exercise/binarySearch/LastSmaller.cpp.i
 
-.PHONY : OfferCoding/p63_ReConstructBinaryTree.i
+.PHONY : exercise/binarySearch/LastSmaller.i
 
 # target to preprocess a source file
-OfferCoding/p63_ReConstructBinaryTree.cpp.i:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.i
-.PHONY : OfferCoding/p63_ReConstructBinaryTree.cpp.i
+exercise/binarySearch/LastSmaller.cpp.i:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/binarySearch/LastSmaller.cpp.i
+.PHONY : exercise/binarySearch/LastSmaller.cpp.i
 
-OfferCoding/p63_ReConstructBinaryTree.s: OfferCoding/p63_ReConstructBinaryTree.cpp.s
+exercise/binarySearch/LastSmaller.s: exercise/binarySearch/LastSmaller.cpp.s
 
-.PHONY : OfferCoding/p63_ReConstructBinaryTree.s
+.PHONY : exercise/binarySearch/LastSmaller.s
 
 # target to generate assembly for a file
-OfferCoding/p63_ReConstructBinaryTree.cpp.s:
-	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/OfferCoding/p63_ReConstructBinaryTree.cpp.s
-.PHONY : OfferCoding/p63_ReConstructBinaryTree.cpp.s
+exercise/binarySearch/LastSmaller.cpp.s:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/exercise/binarySearch/LastSmaller.cpp.s
+.PHONY : exercise/binarySearch/LastSmaller.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Main"
-	@echo "... OfferCoding/p63_ReConstructBinaryTree.o"
-	@echo "... OfferCoding/p63_ReConstructBinaryTree.i"
-	@echo "... OfferCoding/p63_ReConstructBinaryTree.s"
+	@echo "... exercise/binarySearch/LastSmaller.o"
+	@echo "... exercise/binarySearch/LastSmaller.i"
+	@echo "... exercise/binarySearch/LastSmaller.s"
 .PHONY : help
 
 
