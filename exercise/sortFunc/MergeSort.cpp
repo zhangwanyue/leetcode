@@ -11,7 +11,10 @@ using namespace std;
 //归并排序要做的就是分解和合并这两件事
 //分解：将序列每次折半拆分（递归到最底层，分解为单个元素，然后将两组单个的元素merge，再将merge好的两组两个的元素merge...）
 //合并：将划分后的序列段两两排序合并
-//要用到额外的空间，空间复杂度为n
+
+//时间复杂度：O(nlogn)
+//空间复杂度：O(n)
+//稳定性：稳定（两个相同的元素，排序后不会交换前后位置）
 
 void merge(vector<int>& numbers, int left, int mid, int right, vector<int>& temp){
     int i = left;
