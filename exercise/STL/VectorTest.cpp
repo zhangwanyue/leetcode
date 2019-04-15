@@ -15,6 +15,7 @@ void printVec(vector<int>& vec){
 
 int main(){
     //静态初始化
+    vector<string> words(5, "hello");
     vector<int> vec = {0,1,2,3,4};
     vector<vector<int> > matrix = {{0,1,2},{3,4}};
     //初始化固定大小
