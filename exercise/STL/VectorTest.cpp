@@ -111,5 +111,20 @@ int main(){
     temp2[9]=10;
     cout<<temp2[9]<<endl;
     cout<<*(temp2+9)<<endl;
+
+    vector<int> vector6 = {0,1,2,3,4,5,6,7,8,9};
+//    vector6.reserve(10);
+//    for(int i=0; i<10; i++){
+//        cin>>vector6[i];
+//    }
+//    for(int i=0; i<10; i++){
+//        cout<<vector6[i]<<" ";
+//    }
+
+    //迭代的时候删除元素
+    for(int i=0; i<vector6.size();){
+        cout<<vector6[i]<<" ";
+        vector6.erase(vector6.begin());
+    }
 }
 
