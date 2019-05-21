@@ -6,7 +6,10 @@
 using namespace std;
 int main(){
     //multiset允许拥有多个等价的值
-    multiset<int> multiset1 = {1, 1, 2, 2};
+    multiset<int> multiset1 = {77, 8, 10, 1, 1, 2, 2};
     set<int> set1 = {1, 1, 2, 2};
     cout<<"multiset: "<<multiset1.count(1)<<" set: "<<set1.count(1)<<endl;
+    for(int item : multiset1){ //自动排序
+        cout<<item<<" ";
+    }
 }

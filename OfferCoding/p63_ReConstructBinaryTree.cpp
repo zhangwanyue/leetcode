@@ -14,6 +14,7 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
 };
 
+//根据输入的二叉树的前序和中序遍历结果，重建二叉树
 class Solution {
 public:
     TreeNode* reConstructBinaryTree(vector<int> pre,vector<int> vin) {
@@ -67,6 +68,7 @@ public:
     }
 };
 
+//层序输出二叉树
 list<list<int> > printTreeNodeFloors(TreeNode* root){
     queue<TreeNode> treeNodeQueue;
     list<list<int> > treeNodeList;//按层存储树

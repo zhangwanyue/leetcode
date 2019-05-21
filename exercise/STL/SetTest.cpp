@@ -38,7 +38,7 @@ void printInfoSet(set<Info, myComp>& infoSet){
     }
 }
 
-//set中每个元素的值都是唯一的，而且系统能够根据元素的值自动进行排序
+//set中每个元素的值都是唯一的，而且系统能够根据元素的值自动进行排序（内部是红黑树实现的）
 int main(){
     //静态初始化
     set<int> myset1 = {1, 2, 2, 22};
