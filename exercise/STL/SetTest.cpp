@@ -88,7 +88,6 @@ int main(){
     myset1.clear();
     printSet(myset1);
 
-
     //自定义比较函数
     Info info1 = {"alice", 100};
     Info info2 = {"bob", 90};
