@@ -35,21 +35,20 @@ pair<int, int> startPoint(0, 1);
 pair<int, int> endPoint(2, 2);
 
 
-struct Path{
+struct Point{
     int x;
     int y;
-    Path(int x, int y) : x(x), y(y) {}
+    Point(int x, int y) : x(x), y(y) {}
 };
 
 int pathDistance[N][M];
-
 
 // 定义一个向四个方向移动的向量
 vector<pair<int, int>> direction = {make_pair(0, 1), make_pair(0, -1), make_pair(1, 0), make_pair(-1, 0)};
 
 // 使用深度优先搜索
-void dfs(Path path){
-    int x = path.x, y = path.y;
+void dfs(Point point){
+    int x = point.x, y = point.y;
 
     if(x == endPoint.first && y == endPoint.second){
         return;
@@ -67,7 +66,7 @@ void dfs(Path path){
            && (pathDistance[nextX][nextY] == INF || pathDistance[nextX][nextY] > pathDistance[x][y] + 1) ){
 //              && pathDistance[nextX][nextY] == INF){ // 仅仅判断当前被搜索过还不够，还需要判断是否使最短路径
             pathDistance[nextX][nextY] = pathDistance[x][y] + 1;
-            dfs(Path(nextX, nextY));// 下一个要搜索的点
+            dfs(Point(nextX, nextY));// 下一个要搜索的点
         }
     }
 
@@ -84,6 +83,6 @@ int main(){
     pathDistance[startPoint.first][startPoint.second] = 0;
 
     // 调用dfs
-    dfs(Path(startPoint.first, startPoint.second));
+    dfs(Point(startPoint.first, startPoint.second));
     cout<<"shortest path: " << pathDistance[endPoint.first][endPoint.second];
 }
