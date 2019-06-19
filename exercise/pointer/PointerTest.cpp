@@ -10,6 +10,7 @@ int & squareRef(int num){
     int localResult = num * num;
     return localResult;
 }
+
 int * squarePtr(int num){
     int localResult = num * num;
     return &localResult;

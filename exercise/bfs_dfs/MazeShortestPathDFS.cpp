@@ -86,3 +86,5 @@ int main(){
     dfs(Point(startPoint.first, startPoint.second));
     cout<<"shortest path: " << pathDistance[endPoint.first][endPoint.second];
 }
+
+// 在求取最短路径时，深度优先搜索需要反复经过同样的状态，所以此时还是使用广度优先搜索比较好
