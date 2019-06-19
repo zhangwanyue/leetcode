@@ -7,5 +7,5 @@ set(CMAKE_BUILD_TYPE Debug)
 
 set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fsanitize=address")
 
-add_executable(Main exercise/algorithm/BackpackProblem.cpp)
+add_executable(Main exercise/algorithm/01BackpackProblemBacktrace.cpp)
 
