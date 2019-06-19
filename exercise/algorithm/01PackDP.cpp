@@ -30,6 +30,19 @@ int rec(int n, int capacity){
     return dp[n][capacity];
 }
 
+//int rec(int n, int capacity){
+//    // dp数组
+//    int dp[NUM+1][TOTALCAPACITY+1] = {}; // 全部初始化为0
+//    for(int i=0; i<n; i++){
+//        for(int j=0; j<=capacity; j++){
+//            dp[i+1][j] = max(dp[i+1][j], dp[i][j]);
+//            if(j+items[i].first <= TOTALCAPACITY){
+//                dp[i+1][j+items[i].first] = max(dp[i+1][j+items[i].first], dp[i][j] + items[i].second);
+//            }
+//        }
+//    }
+//    return dp[n][capacity];
+//}
 
 int main(){
     cout<<rec(NUM, TOTALCAPACITY)<<endl;
