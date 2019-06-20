@@ -57,7 +57,7 @@ int solve3(const int a[N]){
 
 }
 
-
+// 题目：最长上升子序列(LIS)问题
 int main(){
     int a[N] = {1, 2, 5, 6, 2, 3, 5, 8, 0, 1};
     //LIS={1, 2, 3, 5, 8}
