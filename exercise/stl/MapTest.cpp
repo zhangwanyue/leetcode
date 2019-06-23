@@ -16,7 +16,6 @@ void printMap(map<string, int> map1){
 int main(){
     //静态初始化
     map<string, int> map1 = {{"alice", 10},{"bob", 20}};
-    map1["joey"] = 30;
     //元素访问
     cout<<map1["alice"]<<endl;
     //迭代器访问
@@ -28,6 +27,8 @@ int main(){
     cout<<"size: "<<map1.size()<<" isEmpty: "<<map1.empty()<<endl;
     //插入元素
     map1.insert({"jude", 40});
+    map1.insert(make_pair("floria", 33));
+    map1["joey"] = 30;
     printMap(map1);
     //查找元素
     map<string, int>::iterator iterator2 = map1.find("jude");//寻找带有特定键的元素

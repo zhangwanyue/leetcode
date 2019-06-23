@@ -3,13 +3,13 @@
 //
 #include <iostream>
 #include <vector>
+#include <queue>
 
 using namespace std;
 
 //假设堆的root的下标是0（即下标从0开始）
 //则heap[i]的左孩子是heap[i*2+1]，右孩子是heap[i*2+2]
 //则heap[i]的父节点是heap[(i-1)/2]
-
 
 // 插入一个node到最小堆
 void push(vector<int>& heap, int& size, int node){
@@ -54,20 +54,33 @@ int pop(vector<int>& heap, int& size){
     return top;
 }
 
-int main(){
-    vector<int> heap={0, 1, 2, 3, 4, 5};
-    int size = 6;
-    while(size>0){
-        cout<<pop(heap, size)<<endl;
-    }
-
-    cout<<"after insert"<<endl;
-    heap.clear();
+// 使用cpp中的priority_queue进行堆排
+int priorityQueue(){
+    priority_queue<int> pqueue;
     for(int i=10; i>0; i--){
-        push(heap, size, i);
+       pqueue.push(i);
     }
-    while(size>0){
-        cout<<pop(heap, size)<<endl;
+    while(pqueue.size()>0){
+        cout<<pqueue.top()<<endl;
+        pqueue.pop();
     }
+}
 
+int main(){
+//    vector<int> heap={0, 1, 2, 3, 4, 5};
+//    int size = 6;
+//    while(size>0){
+//        cout<<pop(heap, size)<<endl;
+//    }
+//
+//    cout<<"after insert"<<endl;
+//    heap.clear();
+//    for(int i=10; i>0; i--){
+//        push(heap, size, i);
+//    }
+//    while(size>0){
+//        cout<<pop(heap, size)<<endl;
+//    }
+
+    priorityQueue();
 }

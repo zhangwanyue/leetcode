@@ -5,6 +5,8 @@
 #include <unordered_set>
 #include <set>
 using namespace std;
+
+// 和java中hashset的结构相同，数组+链表（or红黑树）
 int main(){
     unordered_set<int> unordered_set1 = {2,3,4,5,6};
     set<int> set1 = {2,3,4,5,6};
