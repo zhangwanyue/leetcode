@@ -90,4 +90,17 @@ int main(){
     deque<int> deque5 = {0,1,3};
     cout<< (deque3==deque4) << " " << (deque3>deque5)<<endl;
 
+    //删除元素
+    std::deque<int> c{0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+    // Erase all even numbers (C++11 and later)
+    for (auto it = c.begin(); it != c.end(); ) {
+        if (*it % 2 == 0) {
+            it = c.erase(it);//删除迭代器指向的元素
+        } else {
+            ++it;
+        }
+    }
+    for(int it : c){
+        cout<<it<<" ";
+    }
 }

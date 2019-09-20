@@ -5,7 +5,7 @@
 #include <vector>
 using namespace std;
 
-//快排的基本思想：挖坑填数＋分治法
+//快排的基本思想：挖坑填数＋分治法｀
 //1.从序列中选择一个基准数（最简单的可以选择第一个数为基准数，三数取中法则选择start,mid,end三数中间大小的一个数为基准数）
 //2.将序列当中所有数依次遍历，比基准数大的放在其右侧，比基准数小的放在其左侧（挖坑填数）
 //3.重复步骤1.2.直到所有子集当中只有一个元素为止（分治）
@@ -22,7 +22,7 @@ int partition(vector<int>& numbers, int start, int end){
         while(start<end && numbers[end]>=pivot) {
             --end;
         }
-        numbers[start] = numbers[end]; //现在把numbers[start]这个坑填了，但是numbers[end]变成了坑，要找个数填一下
+        numbers[start] = numbers[end    ]; //现在把numbers[start]这个坑填了，但是numbers[end]变成了坑，要找个数填一下
         while(start<end && numbers[start]<=pivot){
             ++start;
         }
@@ -39,7 +39,6 @@ void quicksort(vector<int>& numbers, int start, int end){
         quicksort(numbers, start, pivot-1);
         quicksort(numbers, pivot+1, end);
     }
-
 }
 
 

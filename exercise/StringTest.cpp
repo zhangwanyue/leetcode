@@ -5,6 +5,7 @@
 #include <iostream>
 #include <vector>
 #include <sstream>
+//<sstream>库定义了三种类：istringstream、ostringstream和stringstream，分别用来进行流的输入、输出和输入输出操作。
 
 using namespace std;
 
@@ -20,8 +21,8 @@ int main(){
         cout<<splitStr[i]<<endl;
     }
     cout<<"end";
-}*/
-
+}
+*/
 
 /*
 vector<string> split (const string &s, char delim) {
@@ -73,7 +74,7 @@ int main() {
 }*/
 
 
-/*
+
 int main(){
     //ostringstream的数据流转移：从字符串到ostringstream
     //istringstream的数据流转移：从istringstream到字符串
@@ -83,7 +84,7 @@ int main(){
     ss1<<1;
     result1 = ss1.str();
     cout<<result1<<endl;
-    ss1.clear();//clear成员函数继承自ios,用于清楚流的errpr状态,如果file stream的状态被职位eofbit(文件结束),则调用clear会讲错误状态重置为goodbit.但是它并不清空流!!!
+    ss1.clear();//clear成员函数继承自ios,用于清除流的error状态,如果file stream的状态被职位eofbit(文件结束),则调用clear会讲错误状态重置为goodbit.但是它并不清空流!!!
     ss1.str("");//清空流
     ss1<<2<<1;
     result1 = ss1.str();
@@ -102,9 +103,10 @@ int main(){
     cout<<result3<<endl;
     getline(ss2, result3);
     cout<<result3<<endl;
-}*/
+}
 
 
+/*
 int main(){
     string str = "hello world";
     int pos1 = str.find("word");//return: the position of the first character of the first match, if no matches were found, the function returns string::npos
@@ -115,4 +117,4 @@ int main(){
 
     int pos2 = str.find("worl", 2);//从下标为２的位置开始查找
     cout<<pos2<<endl;
-}
+}*/

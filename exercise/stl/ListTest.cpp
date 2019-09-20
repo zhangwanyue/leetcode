@@ -43,7 +43,7 @@ int main(){
     //容量
     cout<<"size:"<<list1.size()<<" isEmpty:"<<list1.empty()<<" max_size:"<<list1.max_size()<<endl;
     //插入元素
-    //注意：list没有重载+操作符，只重载了++操作符
+    //注意：list::iterator没有重载+操作符，只重载了++操作符
     cout<<"------insert------"<<endl;
     printList(list1);
     list1.insert(list1.begin(), 10);//插入单个元素
