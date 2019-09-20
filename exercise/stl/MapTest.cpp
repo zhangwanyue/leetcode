@@ -16,7 +16,7 @@ void printMap(map<string, int> map1){
 int main(){
     //静态初始化
     map<string, int> map1 = {{"alice", 10},{"bob", 20}};
-    //元素访问
+    //元素访问(get value using key)
     cout<<map1["alice"]<<endl;
     //迭代器访问
     for(map<string, int>::iterator iterator1 = map1.begin(); iterator1!=map1.end(); iterator1++){
